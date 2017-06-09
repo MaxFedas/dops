@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} =-f
+RewriteRule ^(.*)\.php$ $1.html [NC,L]
+RewriteRule ^(.*)\.html$  $1.php [NC,L]
+RewriteCond %{HTTP_REFERER} !^http://www\.dops\.bz/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://www\.dops\.bz$ [NC]
+RewriteRule .*\.(wav|swf|jpg|jpeg|gif|png|bmp|js|css)$ - [F,NC,L]

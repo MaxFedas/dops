@@ -1,0 +1,12 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" width="932" height="932" viewBox="-3.25 -3.25 932 932">
+  <circle fill="none" stroke="#063D80" stroke-width="1.5" stroke-miterlimit="10" cx="462.75" cy="462.75" r="462" opacity=".1"/>
+  <circle fill="none" stroke="#063D80" stroke-width="1.5" stroke-miterlimit="10" cx="462.75" cy="462.75" r="433" opacity=".2"/>
+  <circle fill="none" stroke="#063D80" stroke-width="1.5" stroke-miterlimit="10" cx="462.75" cy="462.75" r="404" opacity=".25"/>
+  <circle fill="none" stroke="#063D80" stroke-width="1.5" stroke-miterlimit="10" cx="462.75" cy="462.75" r="376" opacity=".3"/>
+  <circle fill="none" stroke="#063D80" stroke-width="1.5" stroke-miterlimit="10" cx="462.75" cy="462.75" r="349" opacity=".35"/>
+  <circle fill="none" stroke="#063D80" stroke-width="1.5" stroke-miterlimit="10" cx="462.75" cy="462.75" r="318" opacity=".5"/>
+  <circle fill="none" stroke="#063D80" stroke-width="1.5" stroke-miterlimit="10" cx="462.75" cy="462.75" r="289"/>
+</svg>

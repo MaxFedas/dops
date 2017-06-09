@@ -1,0 +1,116 @@
+/*Get Start*/
+
+.section.getstarted {
+	 height: 100vh;
+	 min-height: 500px;
+	 background: url(../images/gs_img.jpg) no-repeat 95% center;
+	 padding: 75px 0 0 0;
+	 .info-txt {
+		 width: 570px;
+	 }
+	 .gs_form {
+		 margin: 40px 0 0 0;
+		 .group {
+			 float: left;
+			 width: 230px;
+			 margin: 0 9px 0 0;
+		 }
+		 .field {
+			 input {
+				 width: 100%;
+				 height: 60px;
+				 background: #fff;
+				 border: 1px solid #a6a4a4;
+				 padding: 0 20px;
+				 font-size: 18px;
+				 font-style: italic;
+				 font-family: @base_font2_family;
+				 color: rgba(30,29,29,0.85);
+			 }
+		 }
+		 .bts {
+			 float: left;
+			 width: 230px;
+			 margin: -2px 0 0 0;
+			 .btn {
+				 display: block;
+				 min-width: 0px;
+				 height: 66px;
+				 line-height: 66px;
+				 box-shadow: 0 3px 15px rgba(0,0,0,0.14);
+			 }
+		 }
+		 .text {
+			 padding: 40px 0 0 0;
+			 font-size: 14px;
+			 font-style: italic;
+			 font-family: @base_font2_family;
+			 line-height: 28px;
+			 max-width: 710px;
+		 }
+	 }
+}
+
+.section.getconfirm {
+	 height: 100vh;
+	 background: url(../images/confirm_bg.jpg) no-repeat top center;
+	 text-align: center;
+	 padding: 75px 0 0 0;
+	 min-height: 550px;
+	 .info-txt {
+		 margin: 0 auto;
+		 max-width: 720px;
+	 }
+	 .title {
+		 font-size: 48px;
+		 margin-bottom: 20px;
+	 }
+	 .content {
+		 font-size: 16px;
+		 line-height: 32px;
+		 font-family: @base_font2_family;
+		 p {
+			 margin: 0 0 20px 0;
+		 }
+		 a {
+			 font-style: italic;
+			 color: @base_text_color;
+			 text-decoration: none;
+		 }
+		 h3 {
+			 font-size: 20px;
+			 font-weight: 400;
+			 font-family: @base_font2_family;
+			 margin: 20px 0;
+		 }
+	 }
+	 .social {
+		 margin: 35px 0 15px 0;
+		 a {
+			 position: relative;
+			 display: inline-block;
+			 vertical-align: top;
+			 padding: 0 16px 0 15px;
+			 font-size: 18px;
+			 color: #000;
+			 &:hover {
+				 color: #edeef0;
+			 }
+			 &:last-child {
+				 &::after {
+					 display: none;
+				 }
+			 }
+			 &::after {
+				 content: '';
+				 position: absolute;
+				 top: 50%;
+				 right: 0px;
+				 margin: -10.5px 0 0 0;
+				 width: 1px;
+				 height: 21px;
+				 background: #c7bdb4;
+			 }
+		 }
+	 }
+}

@@ -1,0 +1,188 @@
+/* =========================
+   Fonts
+   =========================*/
+
+
+body { font:normal 12px $font-reg, Helvetica; color:$col-f-g; background:#fff; line-height: 1; -ms-overflow-style: scrollbar; }
+body * { -webkit-font-smoothing: antialiased; text-shadow: 0 1px 0 rgba(0,0,0,0.01); }
+
+h2, h3, h4, h5 { color: #000; padding-bottom: 10px; text-transform: uppercase; }
+h2 { font-size: 25px; line-height: 25px; }
+h3 { font-size: 20px; line-height: 21px; }
+h4 { font-size: 17px; line-height: 17px; }
+h5 { font-size: 13px; line-height: 16px; }
+
+.title-wrap {
+    margin-bottom: 37px;
+
+    .title {
+        margin-bottom: 7px;
+    }
+
+    .title-s {
+        line-height: 27px;
+
+        a {
+            color: $col-h;
+        }
+    }
+
+    @include mobile {
+        &:not(.title-wrap-left) {
+            width: 315px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+    }
+}
+
+.title-wrap-center {
+    margin-bottom: 22px;
+    text-align: center;
+
+    &.title-wrap-left-mob {
+
+        @include mobile {
+            text-align: left;
+            margin: 0 15px 22px 25px !important;
+            width: auto !important;
+        }
+    }
+}
+
+.title, .title-2 {
+    color: $col-f-d;
+    font-size: 35px;
+    line-height: 42px;
+    letter-spacing: 0.5px;
+}
+
+.title-2 {
+    font-size: 22px;
+}
+
+.title-s, .title-d {
+    @extend .text;
+
+    span {
+        color: $col-h;
+    }
+}
+
+.title-n {
+    font-family: $font-med;
+    font-size: 16px;
+    color: $col-f-d;
+    display: block;
+    text-decoration: none;
+}
+
+.title-ico { 
+    padding: 32px 0 28px;
+
+    > div {
+        position: relative;
+        padding-left: 40px;
+        font-size: 22px;
+        height: 24px;
+        line-height: 26px;
+        color: $col-f-d;
+    }
+
+    .ico {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+.det {
+    color: $col-h;
+    font-size: 15px;
+}
+
+.prod-name, .title-m {
+    @extend .trans;
+    display: block;
+    text-decoration: none;
+    font-family: $font-med;
+    text-transform: uppercase;
+    color: $col-f-d;
+}
+
+a.prod-name:hover, a.title-m:hover {
+    color: $col-h;
+}
+
+.tag {
+    display: block;
+    color: $col-h;
+    font-size: 15px;
+    line-height: 18px;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.user-name {
+    display: block;
+    color: #fff;
+    font-size: 15px;
+}
+
+.text {
+    font-size: 15px;
+    color: $col-f-g;
+    font-family: $font-reg;
+    letter-spacing: 0.3px;
+}
+
+a {
+    color: $col-f-d;
+    
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.price {
+    font-size: 22px;
+    color: $col-f-d;
+    white-space: nowrap;
+}
+
+p, .price-m, .desc {
+    @extend .text;
+}
+
+
+@font-face {
+    font-family: 'PFDinTextPro-Regular';
+    src: url('fonts/PFDinTextPro-Regular.eot');
+    src: url('fonts/PFDinTextPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PFDinTextPro-Regular.woff') format('woff'),
+         url('fonts/PFDinTextPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFDinTextPro-Medium';
+    src: url('fonts/PFDinTextPro-Medium.eot');
+    src: url('fonts/PFDinTextPro-Medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PFDinTextPro-Medium.woff') format('woff'),
+         url('fonts/PFDinTextPro-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BigNoodleTitling';
+    src: url('fonts/BigNoodleTitling.eot');
+    src: url('fonts/BigNoodleTitling.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BigNoodleTitling.woff') format('woff'),
+         url('fonts/BigNoodleTitling.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,6 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg xmlns="http://www.w3.org/2000/svg" width="333" height="333" viewBox="0.022 0.182 333 333">
+  <path fill="#179232" d="M333 166.5c0 91.955-74.546 166.5-166.5 166.5C74.545 333 0 258.455 0 166.5S74.545 0 166.5 0C258.454 0 333 74.545 333 166.5"/>
+</svg>

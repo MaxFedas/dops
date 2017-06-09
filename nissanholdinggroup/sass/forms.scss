@@ -1,0 +1,193 @@
+/* =========================
+   Forms
+   =========================*/
+
+
+
+/* ---------------
+    Search
+    -------------- */
+
+.search-block {
+    float: left;
+    position: relative;
+    width: 112px;
+
+    input[type="text"] {
+        color: #000;
+        width: 91px;
+        line-height: 17px;
+        background: none;
+        border: none;
+    }
+
+    input[type="submit"] {
+        position: absolute;
+        top: 0;
+        right: 0px;
+        width: 17px;
+        height: 17px;
+        background: url('../images/sprites.png') 0 0 no-repeat;
+        border: none;
+    }
+}
+
+
+/* ---------------
+    Inputs
+    -------------- */
+
+.form-text {
+    position: relative; 
+    margin-bottom: 7px;
+
+    input, textarea {
+        @include border-rad(25px);
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: 48px;
+        line-height: 49px;
+        padding: 0 15px;
+        font-size: 14px;
+        color: #727272;
+        border: 1px solid #E3E3E3;
+        background:#fff;
+        -webkit-appearance: none; -webkit-border-radius: 0; 
+
+        &:focus {
+            border: 1px solid #4CAF50;
+        }
+
+        @include ph {
+            color: #6D6D6D;
+        }
+    }
+
+    textarea {
+        resize:none;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 14px 15px;
+        height: 177px;
+        line-height: 18px;
+    }
+
+    &.form-text-capcha {
+        @include clearfix;
+
+        input {
+            float: left;    
+            width: 185px;
+        }
+
+        .img {
+            float: left;
+            width: 166px;
+            margin-left: 4px;
+        }
+
+        .refresh {
+            float: left;
+            margin-top: 17px;
+            width: 13px;
+            height: 13px;
+            background:url("../images/sprites.png") no-repeat -291px -198px;
+
+            &:hover {
+                background:url("../images/sprites.png") no-repeat -307px -198px;
+            }
+        }
+    }
+}
+
+/* ---------------
+    Buttons
+    -------------- */
+
+.btn {
+    @extend .trans;
+    padding: 0 30px;
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    line-height: 56px;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;  
+    background: none;
+    border: 2px solid #fff;
+    outline: none;
+
+    &:hover {
+        background:#fff;
+        color: #000;
+    }
+
+    // @include mobile {
+    //     height: 50px;
+    //     padding: 0 20px;
+    //     line-height: 46px;
+    //     font-size: 14px;
+    // }
+}
+
+.btn-s {
+    padding-right: 85px;
+    
+    &:before, &:after {
+        @extend .trans;
+        @extend .ps;
+    }
+
+    &:before {
+        width: 20px;
+        height: 2px;
+        top: 27px;
+        right: 32px;
+        background-color: #fff;
+    }
+
+    &:after {
+        @include tr-right(7px, 7px, 7px, #fff);
+        top: 21px;
+        right: 30px;
+    }
+
+    &:hover {
+
+        &:before, &:after {
+            transform: translateX(10px);
+        }
+
+        &:before {
+            background-color: #000;
+        }
+
+        &:after {
+            border-color: transparent transparent transparent #000;
+        }
+    }
+}
+
+// @include mobile {
+
+//     .btn-s {
+//         padding-right: 65px;
+
+//         &:before {
+//             top: 22px;
+//             right: 22px;
+//         }
+
+//         &:after {
+//             top: 16px;
+//             right: 20px;
+//         }
+//     }
+// }
+
+

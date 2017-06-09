@@ -1,0 +1,236 @@
+/*Consultants Page*/
+
+.section.consult_1 {
+	 height: 598px;
+	 background: url(../images/bg_consult_1.jpg) no-repeat 70% 0;
+	 background-size: cover;
+	 .title {
+		 font-style: normal;
+		 line-height: 60px;
+		 margin-bottom: 45px;
+	 }
+	 .info-txt {
+		 width: 60%;
+	 }
+}
+
+.section.consult_2 {
+	 height: 740px;
+	 .image {
+		 position: absolute;
+		 top: -70px;
+	 }
+	 .info-white {
+		 position: relative;
+		 float: right;
+		 width: 582px;
+		 padding: 40px 40px 50px 65px;
+	 }
+}
+
+.section.section-team {
+	.t-title {
+		margin: 0 0 80px 0;
+		text-align: center;
+		font-style: normal;
+		font-family: @base_font2_family;
+		strong {
+			position: relative;
+			top: -5px;
+			display: inline-block;
+			vertical-align: middle;
+			font-size: 72px;
+			color: #242424;
+			font-weight: 400;
+		}
+		span {
+			display: inline-block;
+			vertical-align: middle;
+			padding-left: 30px;
+			margin-left: 30px;
+			border-left: 1px solid #dedede;
+			width: 370px;
+			font-size: 16px;
+			line-height: 24px;
+			text-align: left;
+			font-family: @base_font_family;
+		}
+	}
+}
+
+.team-items {
+	margin: 0 0 95px 0;
+	text-align: center;
+	.team-item {
+		float: left;
+		width: 584px;
+		height: 320px;
+		background: #fafafa;
+		.image {
+			position: relative;
+			overflow: hidden;
+			float: left;
+			width: 50%;
+			height: 320px;
+			img {
+				height: 100%;
+			}
+		}
+		.desc {
+			padding: 50px 35px 0 40px;
+			float: left;
+			width: 50%;
+			height: 320px;
+			text-align: left;
+			.name {
+				margin: 0 0 5px 0;
+				color: #353535;
+				font-size: 24px;
+				font-family: @base_font2_family;
+			}
+			.city {
+				font-style: italic;
+				font-size: 14px;
+				color: #242424;
+				font-family: @base_font2_family;
+			}
+			.text {
+				margin: 25px 0;
+				font-size: 16px;
+				line-height: 26px;
+				color: #242424;
+			}
+			.mail {
+				a {
+					position: relative;
+					display: block;
+					padding: 0 0 0 30px;
+					color: #212121;
+					font-size: 14px;
+					&:before {
+						content: '';
+						position: absolute;
+						left: 0;
+						top: 4px;
+						width: 14px;
+						height: 11px;
+						background: url(../images/mail.png) no-repeat;
+					}
+				}
+			}
+			.bts-readmore {
+				 a {
+					 font-size: 16px;
+					 padding-left: 0px;
+				 }
+			}
+		}
+		&.item-1 {
+			background: #fafafa;
+		}
+		&.item-2 {
+			background: #fcdadb;
+		}
+		&.item-3 {
+			background: #f7ebd8;
+			.image {
+				float: right;
+			}
+			.desc {
+				float: left;
+			}
+		}
+		&.item-4 {
+			background: #353535;
+			.image {
+				float: right;
+			}
+			.desc {
+				float: left;
+				.name, .city, .text, .mail, .mail a, .bts-readmore a {
+					opacity: 0.95;
+					color: #fff;
+				}
+				.bts-readmore a::before { 
+					 background: #fff;
+				}
+				.bts-readmore a::after {
+					 border-left-color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.team-full {
+	position: relative;
+	clear: both;
+	margin: 55px 60px;
+	padding: 125px;
+	border: 1px solid #dbdbdb;
+	.item {
+		.image {
+			float: left;
+			width: 246px;
+			img {
+				max-width: 100%;
+			}
+		}
+		.desc {
+			margin-left: 290px;
+			text-align: left;
+			.name {
+				margin: 0 0 5px 0;
+				color: #353535;
+				font-size: 24px;
+				font-family: @base_font2_family;
+			}
+			.city {
+				font-style: italic;
+				font-size: 14px;
+				color: #242424;
+				font-family: @base_font2_family;
+			}
+			.text {
+				margin: 30px 0 0 0;
+				font-size: 14px;
+				line-height: 28px;
+				color: #242626;
+				font-family: @base_font2_family;
+			}
+		}
+	}
+	.quote {
+		margin: 55px 0;
+		padding: 20px 0;
+		border-top: 1px solid #bfbfbf;
+		border-bottom: 1px solid #bfbfbf;
+		font-style: italic;
+		font-family: @base_font2_family;
+		font-size: 14px;
+		line-height: 28px;
+		text-align: center;
+	}
+	.text-box {
+		margin: 0 0 60px 0;
+		text-align: left;
+		p {
+			margin: 30px 0;
+			font-size: 14px;
+			line-height: 28px;
+			color: #242626;
+		}
+	}
+	.social {
+		text-align: left;
+	}
+	.close {
+		position: absolute;
+		top: 74px;
+		right: 66px;
+		width: 34px;
+		height: 34px;
+		background: url(../images/close.png) no-repeat 0 0;
+		z-index: 2;
+	}
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="1200px" height="750px" viewBox="13.979 -364.005 1200 750"
+	 enable-background="new 13.979 -364.005 1200 750" xml:space="preserve">
+<defs>
+</defs>
+<g>
+	<g>
+		<defs>
+			<path id="SVGID_2_" d="M613.913,167.912c-188.198,0-209.133-123.417-360.127-123.417c-119.111,0-182.83,112.333-239.807,137.388
+				v204.112h1199.934V74.912c-44.114-29.11-74.008-63.5-172.008-63.5C859.115,11.412,839.698,167.912,613.913,167.912"/>
+		</defs>
+		<clipPath id="SVGID_3_">
+			<use xlink:href="#SVGID_2_"  overflow="visible"/>
+		</clipPath>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="13.979" y="11.412" width="1199.934" height="374.583">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="13.979" y="11.412" width="1199.934" height="374.583" id="SVGID_4_">
+			<g filter="url(#Adobe_OpacityMaskFilter)">
+				
+					<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="13.979" y1="385.9951" x2="14.979" y2="385.9951" gradientTransform="matrix(0 588.3463 588.3463 0 -226484.7969 -8426.751)">
+					<stop  offset="0" style="stop-color:#F0F0F0"/>
+					<stop  offset="0" style="stop-color:#808080"/>
+					<stop  offset="1" style="stop-color:#333333"/>
+				</linearGradient>
+				<rect x="13.979" y="11.412" clip-path="url(#SVGID_3_)" fill="url(#SVGID_5_)" width="1199.934" height="374.583"/>
+			</g>
+		</mask>
+		
+			<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="13.979" y1="385.9951" x2="14.979" y2="385.9951" gradientTransform="matrix(0 588.3463 588.3463 0 -226484.7969 -8426.751)">
+			<stop  offset="0" style="stop-color:#0196FF"/>
+			<stop  offset="0" style="stop-color:#0196FF"/>
+			<stop  offset="1" style="stop-color:#0196FF"/>
+		</linearGradient>
+		
+			<rect x="13.979" y="11.412" clip-path="url(#SVGID_3_)" mask="url(#SVGID_4_)" fill="url(#SVGID_6_)" width="1199.934" height="374.583"/>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M247.408,187.498c-105.86,0-113.503-35.086-233.429-69.586v268.083h1199.998l-0.064-239.083
+				c0,0-63.569,48.041-180.004,48.041c-169.001,0-227.004-145.041-419.93-145.041C454.734,49.912,389.356,187.498,247.408,187.498"
+				/>
+		</defs>
+		<clipPath id="SVGID_7_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="0" y="0" width="1227.956" height="435.907">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="0" y="0" width="1227.956" height="435.907" id="SVGID_8_">
+			<g filter="url(#Adobe_OpacityMaskFilter_1_)">
+				
+					<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="13.979" y1="385.9912" x2="14.979" y2="385.9912" gradientTransform="matrix(-15.8713 380.9176 380.9176 15.8713 -146186.5 -11437.3135)">
+					<stop  offset="0" style="stop-color:#FFFFFF"/>
+					<stop  offset="0" style="stop-color:#FFFFFF"/>
+					<stop  offset="1" style="stop-color:#808080"/>
+				</linearGradient>
+				<polygon clip-path="url(#SVGID_7_)" fill="url(#SVGID_9_)" points="1227.956,50.493 1211.897,435.906 0,385.412 16.059,-0.001 
+									"/>
+			</g>
+		</mask>
+		
+			<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="13.979" y1="385.9902" x2="14.979" y2="385.9902" gradientTransform="matrix(-15.8713 380.9176 380.9176 15.8713 -146186.5 -11437.3242)">
+			<stop  offset="0" style="stop-color:#0196FF"/>
+			<stop  offset="0" style="stop-color:#0196FF"/>
+			<stop  offset="1" style="stop-color:#0196FF"/>
+		</linearGradient>
+		<polygon clip-path="url(#SVGID_7_)" mask="url(#SVGID_8_)" fill="url(#SVGID_10_)" points="1227.956,50.494 1211.897,435.907 
+			0,385.413 16.059,0 		"/>
+	</g>
+</g>
+</svg>

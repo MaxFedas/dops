@@ -1,0 +1,469 @@
+
+/* --------------------
+    Fonts
+    ------------------- */  
+
+body { font:normal 12px $reg; color:#212121; line-height: 1; }
+body * { position: relative; -webkit-font-smoothing: antialiased; text-shadow: 0 1px 0 rgba(0,0,0,0.01); }
+
+h2, .title {
+    color: #1a1a1a;
+    font-size: 45px;
+    letter-spacing: 9px;
+    font-family: $mus-9;
+    text-transform: uppercase;
+}
+
+h3, .title-2 {
+    font-size: 25px;
+    color: #1c1c1c;
+    line-height: 30px;
+    margin-bottom: 22px;
+}
+
+.title-3 {
+    font-size: 14px;
+    color: #636363;
+}
+
+.title-sub, .text-nm {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: $bold;
+    color: #979797;
+    letter-spacing: 1px;
+}   
+
+hgroup {
+    margin-bottom: 45px;
+    
+    .title-2 {
+        margin-bottom: 13px;
+    }
+}
+
+.text {
+    font-size: 15px;
+    line-height: 28px;
+    font-family: $reg;
+    color: #fff;
+}
+
+.b-column {
+    width: 300px;
+    text-align: left;
+
+    .text {
+        font-size: 14px;
+        line-height: 28px;
+        color: #212121;
+        letter-spacing: 0.2px;
+    }
+}
+
+
+@font-face {
+    font-family: 'PTSans-Reg';
+    src: url('fonts/PTSans-Reg.eot');
+    src: url('fonts/PTSans-Reg.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTSans-Reg.woff') format('woff'),
+         url('fonts/PTSans-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSans-Bold';
+    src: url('fonts/PTSans-Bold.eot');
+    src: url('fonts/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTSans-Bold.woff') format('woff'),
+         url('fonts/PTSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSans-Italic';
+    src: url('fonts/PTSans-Italic.eot');
+    src: url('fonts/PTSans-Italic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/PTSans-Italic.woff') format('woff'),
+         url('fonts/PTSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'MuseoSansCyrl-700';
+    src: url('fonts/MuseoSansCyrl-700.eot');
+    src: url('fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MuseoSansCyrl-700.woff') format('woff'),
+         url('fonts/MuseoSansCyrl-700.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrl-900';
+    src: url('fonts/MuseoSansCyrl-900.eot');
+    src: url('fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MuseoSansCyrl-900.woff') format('woff'),
+         url('fonts/MuseoSansCyrl-900.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrl-100';
+    src: url('fonts/MuseoSansCyrl-100.eot');
+    src: url('fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MuseoSansCyrl-100.woff') format('woff'),
+         url('fonts/MuseoSansCyrl-100.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrl-300';
+    src: url('fonts/MuseoSansCyrl-300.eot');
+    src: url('fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MuseoSansCyrl-300.woff') format('woff'),
+         url('fonts/MuseoSansCyrl-300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MuseoSansCyrl-500';
+    src: url('fonts/MuseoSansCyrl-300.eot');
+    src: url('fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+         url('fonts/MuseoSansCyrl-300.woff') format('woff'),
+         url('fonts/MuseoSansCyrl-300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* --------------------
+    Typical
+    ------------------- */  
+
+.s-wrap {
+    padding-bottom: 220px;
+}
+
+.s-wrap-o {
+    background-color: $col-o;
+}
+
+.stripes {
+    background-color: #fff;
+    background: repeating-linear-gradient(
+        90deg,
+        #fff,
+        #fff 79px,
+        #f4f4f4 1px,
+        #f4f4f4 80px
+    );
+}
+
+.s-slant-o {
+    transform: skewY(-8deg);
+    margin:-180px -30% 0;
+    overflow: hidden;
+    z-index: 1;
+
+    .s-slant-cont {
+        transform: skewY(8deg);
+    }
+}
+
+.s-slant {
+    transform: skewY(15.3deg);
+    margin:-431px -30% 0;
+    overflow: hidden;
+    z-index: 1;
+
+    .s-slant-cont {
+        transform: skewY(-15.3deg);
+    }
+}
+
+.b-shadow {
+    @include border-rad(7px);
+    background-color: #fff;
+    -webkit-box-shadow: 0 17px 40px rgba(204,205,209,.49);
+    box-shadow: 0 17px 40px rgba(204,205,209,.49);
+}
+
+.desc-item  {
+    position: absolute;
+    text-align: left;
+}
+
+.line {
+    position: absolute;
+
+    * {
+        position: absolute;
+        display: block;
+    }
+
+    i {
+        @include border-rad(50%);
+        top: -7px;
+        width: 15px;
+        height: 15px;
+        background-color: $col-o;
+        border: 5px solid #fccab9;
+    }
+
+    span {
+        overflow: hidden;
+        
+        &:after {
+            content:"";
+            display: block;
+            background-color: #fccab9;
+            top: 0;
+        }
+    }
+
+    span.to-left, span.to-right {
+        left: 0;
+        right: 0;
+        height: 2px;
+
+        &:after {
+            left: 0;
+            right: 0;
+            height: 100%;
+        }
+    }
+
+    span.to-right {
+
+    }
+
+    span.to-top, span.to-btm {
+        top: 0;
+        bottom: 0;
+        width: 2px;
+
+        &:after {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    span.to-btm {
+        
+    }
+}
+
+.circ, .circ span {
+    @include border-rad(50%);
+    position: absolute;
+    background-color: $col-o;
+}
+
+.circ {
+    z-index: 3;
+    width: 11px;
+    height: 11px;
+
+    span {
+        display: block;
+    }
+
+    span.top-left {
+        top: -14px;
+        left: -14px;
+    }
+
+    span.top-right {
+        top: -11px;
+        right: -14px;
+    }
+
+    span.btm-left {
+        top: 21px;
+        left: -15px;
+    }
+
+    span.btm-right {
+        top: 22px;
+        left: 16px;
+    }
+}
+
+.lg {
+    width: 18px;
+    height: 18px;
+}
+
+.md {
+    width: 11px;
+    height: 11px;
+}
+
+.sm {
+    width: 6px;
+    height: 6px;
+}
+
+.xsm {
+    width: 4px;
+    height: 4px;
+}
+
+.num.circ {
+    width: 43px;
+    height: 43px;
+    text-align: center;
+
+    i {
+        display: block;
+        font-style: normal;
+        line-height: 44px;
+        color: #fff;
+        font-size: 15px;
+        font-family: $mus-7;
+    }
+}
+
+.num {
+    .md {
+        top: -22px;
+        left: -11px;
+    }
+
+    .sm {
+        top: -28px;
+        left: 12px;
+    }
+}
+
+.title-wrap {
+    width: 627px;
+    margin: auto;
+
+    .title-sub {
+        position: absolute;
+        top: -33px;
+        left: 0;
+        right: 0;
+    }
+
+    .title {
+        line-height: 1;
+    }
+}
+
+.o-phone-slant {
+    position: absolute;
+    z-index: 3;
+}
+
+.sign {
+    @include border-rad(50%);
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    border: 2px solid #e1e1e1;
+    z-index: 2;
+
+    span {
+        display: table-cell;
+        padding-top: 2px;
+        width: 44px;
+        height: 44px;
+        vertical-align: middle;
+        text-align: center;
+        font-family: $mus-7;
+        color: $col-o;
+        font-size: 12px;
+    }
+
+    &.big {
+        width: 62px;
+        height: 62px;
+
+        span {
+            width: 58px;
+            height: 58px;
+        }
+    }
+}
+
+.num-vert {
+    @include rot(90deg);
+    position: absolute;
+    font-size: 180px;
+    color: #f7f8f9;
+    font-family: $mus-9;
+    white-space: nowrap;
+    width: 250px;
+}
+
+.vert, .vert-2 {
+    position: absolute;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.vert {
+    @include rot(90deg);
+}
+
+.vert-2 {
+    @include rot(-90deg);
+}
+
+.s-wrap-o {
+
+    * {
+        color: #fff;
+    }
+
+    .num-vert {
+        color: #e64d16;
+    }
+
+    .title-sub {
+        color: #e1c2b7;
+    }
+
+    .circ, .circ span {
+        background-color: #fff;
+    }
+
+    .num i {
+        color: $col-o;
+    }
+
+    .num-o.circ {
+        background-color: #d74916;
+
+        i {
+            color: #fff;
+        }
+    }
+
+    .b-column {
+        .text  {
+            color: #fccbba;
+        }
+    }
+
+    .line {
+        span:after {
+            background-color: #eb815c;
+        }
+
+        i {
+            background-color: #fff;
+            border: 5px solid #ee825c;
+        }
+    }
+}

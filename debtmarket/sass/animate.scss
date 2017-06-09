@@ -1,0 +1,1023 @@
+
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: $bg-c;
+    padding-top: 20%;
+
+    span {
+        display: block;
+        font-size: 75px;
+        font-family: $black;
+        color: $text-blue;
+    }
+}  
+
+// Move Fade Animate
+$d: 90px;
+
+.fade {
+    @extend .trans-all; 
+    opacity: 0;
+}
+
+.move-fade {
+    opacity: 0;
+}
+
+.animate {
+    .fade {
+        opacity: 1;
+    }
+
+    .move-fade {
+        animation: move 1.0s ease forwards;
+        -webkit-animation: move 1.0s ease forwards;
+    }
+}
+
+@keyframes move {
+    from {
+        transform:translateY($d);    
+        -webkit-transform:translateY($d);
+        -ms-transform:translateY($d);
+    }
+    to {
+        transform:translateY(0px);
+        -webkit-transform:translateY(0);
+        -ms-transform:translateY(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes move {
+    from {
+        transform:translateY($d);    
+        -webkit-transform:translateY($d);
+        -ms-transform:translateY($d);
+    }
+    to {
+        transform:translateY(0px);
+        -webkit-transform:translateY(0);
+        -ms-transform:translateY(0);
+        opacity: 1;
+    }
+}
+
+// Top Section
+#title-b-svg {
+    
+    .animate & {
+        @include trans(0.2s);
+        @include delay(1.5s);
+        opacity: 0;
+
+        path {
+            opacity: 1;
+            animation: draw-lines 1.3s linear forwards;
+            -webkit-animation: draw-lines 1.3s linear forwards;
+        }
+    }
+}
+
+#title-t-svg {
+    @include trans(1.5s);
+    opacity: 0;
+
+    .animate & {
+        @include delay(1.5s);
+        opacity: 1;
+    }
+}
+
+.section-top-photo.animate {
+    .fade {
+        @include trans(1.5s);
+        @include delay(2.1s);
+    }
+}
+
+.laptop-block {
+    .dribble {
+        @extend .trans-all;
+        @include ty(130px);
+    }
+
+    &.animate {
+        .laptop {
+            @include a-delay(2.4s);
+        }
+
+        .dribble { 
+            @include ty(0px);
+        }
+    }
+
+    .dribble:nth-child(1) {
+        @include delay(2.4s);
+    }
+
+    .dribble:nth-child(2) {
+        @include delay(2.5s);
+    }
+
+    .dribble:nth-child(3) {
+        @include delay(2.6s);
+    }
+}
+
+
+
+// Title 
+// .title-wrap .dribble-group {
+//     @include trans(1.0s);
+//     opacity: 0;
+// }
+
+.title-wrap.animate {
+    .move-fade:first-child {
+        
+    }
+
+    .title {
+        @include a-delay(0.4s);
+    }
+
+    .title-sub {
+        @include a-delay(0.8s);
+    }
+
+    .dribble:nth-child(1) {
+        @include a-delay(0.3s);
+    }
+
+    .dribble:nth-child(2) {
+        @include a-delay(0.5s);
+    }
+
+    .dribble:nth-child(3) {
+        @include a-delay(0.6s);
+    }
+
+    .dribble:nth-child(4) {
+        @include a-delay(0.7s);
+    }
+}
+
+.num span, .prot-num {
+    transform-origin: 50% 50%;
+    transform: scale(0);
+    -webkit-transform:scale(0);
+    -ms-transform:scale(0);
+}
+
+.animate .num span, .no-js .num, .no-js .prot-num {
+    animation: scale 1.0s ease-in-out  forwards;   
+    -webkit-animation: scale 1.0s ease-in-out forwards;   
+}
+
+.animate > .prot-num {
+    animation: scale 1.3s ease-in-out  forwards;   
+    -webkit-animation: scale 1.3s ease-in-out forwards;   
+}
+
+@keyframes scale {
+    from {
+        transform: scale(0);
+        -webkit-transform:scale(0);
+        -ms-transform:scale(0);
+    }
+    to {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -ms-transform:scale(1);
+    }
+}
+
+@-webkit-keyframes scale {
+    from {
+        transform: scale(0);
+        -webkit-transform:scale(0);
+    }
+    to {
+        transform:scale(1);
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+// Analysis
+.analysis-wrap.animate {
+    // .stat-list {
+    //     @include a-delay(0.3s);
+    // }
+
+    // .wblock-quote {
+    //     @include a-delay(0.6s);
+    // }
+
+    // .right-col .wblock-person {
+    //     @include a-delay(0.8s);
+    // }
+
+    // .title-bg {
+    //     @include a-delay(1.2s);
+    // }
+}
+
+
+// Hierarchy
+#hier-svg {
+    width: 1200px;
+    height: 714px;
+}
+
+.hier-image.animate  {
+    path {
+        @include delay(1s);
+        animation: draw-lines 1s linear forwards;
+        -webkit-animation: draw-lines 1s linear forwards;
+    }
+    
+    .hier-text-wrap {
+        @include delay(1.2s);
+        opacity: 1;
+    }
+}
+
+@keyframes draw-lines {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@-webkit-keyframes draw-lines {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+// .adv-wrap.animate {
+//     .adv-item:first-child {
+//         @include a-delay(0.2s);
+//     }
+
+//     .adv-item:last-child {
+//         @include a-delay(0.5s);
+//     }
+// }
+
+
+// Prototype 
+.prot-socket.animate {
+    .fade {
+        @include delay(1.4s);
+    }
+}
+
+.prot-quote-wrap {
+    background-position: 50% 150px;
+
+    &.animate  {
+        @include trans(0.8s);
+        background-position: 50% 0;
+    }
+}
+
+// Value Cicles 
+.val-overlap {
+
+    .val-name, .val-circle {
+        @extend .trans-all;
+        opacity: 0;
+    }
+}
+
+$ccl-dur: 1.6s;
+
+.val-overlap.animate {
+    .val-name {
+        @extend .trans-all;
+        @include delay(1.7s);
+        opacity: 1;
+
+        &.val-name-ctr {
+            opacity: 0.6;
+        }
+    }
+
+    .val-circle {
+        opacity: 1;
+        top: 0;
+        left: 0;
+        transform-origin: 50% 50%;
+    }
+
+    .val-circle-com {
+        opacity: 0.8;
+        animation: circle-1 $ccl-dur cubic-bezier(0.76, 0.02, 0.52, 1) forwards;
+        -webkit-animation:circle-1 $ccl-dur cubic-bezier(0.76, 0.02, 0.52, 1) forwards;;
+    }
+
+    .val-circle-cmr {
+        animation: circle-2 $ccl-dur cubic-bezier(0.76, 0.02, 0.52, 1) forwards;
+        -webkit-animation: circle-2 $ccl-dur cubic-bezier(0.76, 0.02, 0.52, 1) forwards;
+    }
+
+    .val-circle-cnt {
+        opacity: 0.85;
+        animation: circle-3 $ccl-dur cubic-bezier(0.76, 0.02, 0.52, 1) forwards;
+        -webkit-animation: circle-3 $ccl-dur cubic-bezier(0.76, 0.02, 0.52, 1) forwards;
+    }
+}
+
+@keyframes circle-1 {
+  to {
+    transform: rotate(180deg) translate(0px, 86px) scale(1.09);
+  }
+}
+
+@keyframes circle-2 {
+  to {
+    transform: rotate(180deg) translate(115px, -55px);
+  }
+}
+
+@keyframes circle-3 {
+  to {
+    transform: rotate(180deg) translate(-115px, -55px);
+  }
+}
+
+@-webkit-keyframes circle-1 {
+  to {
+    transform: rotate(180deg) translate(0px, 86px) scale(1.09);
+  }
+}
+
+@-webkit-keyframes circle-2 {
+  to {
+    transform: rotate(180deg) translate(115px, -55px);
+  }
+}
+
+@-webkit-keyframes circle-3 {
+  to {
+    transform: rotate(180deg) translate(-115px, -55px);
+  }
+}
+
+// Lines 
+.line-block i {
+    @extend .trans-all;
+    transform: scale(0);
+}
+
+.no-js .line-block i {
+    transform: scale(1);
+}
+
+$time-draw: 0.5s;
+//$delay-draw: 1s;
+
+.animate .line-block {
+
+    span.hor[data-way="left"]:after {
+        animation:draw-hor-left $time-draw linear forwards;    
+        -webkit-animation:draw-hor-left $time-draw  linear forwards;    
+    }
+
+    span.hor[data-way="right"]:after {
+        animation:draw-hor-right $time-draw linear forwards;     
+        -webkit-animation:draw-hor-right $time-draw  linear forwards;     
+    }
+
+    span.ver[data-way="top"]:after {
+        animation:draw-ver-top $time-draw linear forwards;    
+        -webkit-animation:draw-ver-top $time-draw  linear forwards;  
+    }
+
+    span.ver[data-way="bottom"]:after {
+        animation:draw-ver-bottom $time-draw linear forwards;    
+        -webkit-animation:draw-ver-bottom $time-draw linear forwards;   
+    }
+
+    i {
+        transform: scale(1);
+    }
+}
+
+@keyframes draw-hor-left {
+    to {
+        left:0;
+    }
+}
+
+@keyframes draw-hor-right {
+    to {
+        left:0;
+    }
+}
+
+@keyframes draw-ver-top {
+    to {
+        top: 0;
+    }
+}
+
+@keyframes draw-ver-bottom {
+    to {
+        top: 0;
+    }
+}
+
+@-webkit-keyframes draw-hor-left {
+    to {
+        left:0;
+    }
+}
+
+@-webkit-keyframes draw-hor-right {
+    to {
+        left:0;
+    }
+}
+
+@-webkit-keyframes draw-ver-top {
+    to {
+        top: 0;
+    }
+}
+
+@-webkit-keyframes draw-ver-bottom {
+    to {
+        top: 0;
+    }
+}
+
+
+// Animate Interface News & Content
+.int-news.animate {
+
+    // News 
+    .int-desc-news  { 
+
+        .line-block {
+            span.ver-1:after {
+                @include a-delay(0.6s);
+            }
+
+            span.hor-1:after {
+                @include a-delay(1.0s);
+            }
+
+            span.ver-2:after {
+                @include a-delay(1.4s);
+            }
+
+            span.hor-2:after {
+                @include a-delay(1.8s);
+            }
+
+            i {
+                @include delay(2.2s);
+            }
+        }
+
+        .int-desc-text {
+            @include delay(2.3s);
+        }
+    }
+
+    // Content 
+    .int-desc-cont { 
+
+        .line-block {
+            span.hor-1:after {
+                @include a-delay(2.4s);
+            }
+
+            span.ver-1:after {
+                @include a-delay(2.8s);
+            }
+
+            span.hor-2:after {
+                @include a-delay(3.2s);
+            }
+
+            i {
+                @include delay(3.6s);
+            }
+        }
+
+        .int-desc-text {
+            @include delay(3.7s);
+        }
+    }
+
+    #screen-n-2 .move-fade {
+        @include a-delay(1.3s);
+    }
+
+    #screen-n-3 .move-fade {
+        @include a-delay(1.6s);
+    }
+
+    #screen-n-4 .move-fade {
+        @include a-delay(1.8s);
+    }
+}
+
+// Animate Interface Catalogue
+.int-desc-cat.animate {
+    
+    .line-block {
+        span.hor:after {
+            @include a-delay(0.5s);
+        }
+
+        i {
+            @include delay(0.9s);
+        }
+    }
+
+    .int-desc-text {
+        @include delay(1.0s);
+    }
+
+    .triangle-1 .move-fade {
+        @include a-delay(1.3s);
+    }
+
+    .triangle-2 .move-fade {
+        @include a-delay(1.3s);
+    }
+}
+
+// Animate Interface Filter
+.int-desc-filter.animate {
+
+    .line-block {
+        span.hor-1:after {
+            @include a-delay(0.4s);
+        }
+
+        span.ver-1:after {
+            @include a-delay(0.8s);
+        }
+
+        span.hor-2:after {
+            @include a-delay(1.2s);
+            animation-duration: 0.5s;
+            -webkit-animation-duration: 0.5s;
+        }
+
+        i {
+            @include delay(1.8s);
+        }
+    }
+
+    .int-desc-text {
+        @include delay(1.9s);
+    }
+}
+
+
+// Animate Interface Favorite & Cabinet
+.int-fb-wrap.animate {
+
+    // Favorite
+    .int-desc-fav {
+
+        .line-block {
+            span.ver-1:after {
+                @include a-delay(0.7s);
+            }
+
+            i {
+                @include delay(1.1s);
+            }
+        }
+
+        .int-desc-text {
+            @include delay(1.2s);
+        }
+    }
+
+    // Cabinet
+    .int-desc-cab {
+
+        .line-block {
+            span.ver-1:after {
+                @include a-delay(1.2s);
+            }
+
+            i {
+                @include delay(1.6s);
+            }
+        }
+
+        .int-desc-text {
+            @include delay(1.7s);
+        }
+    }
+}
+
+// Style
+.style-overview.animate  {
+    path {
+        animation: draw-lines 1s linear forwards;
+        -webkit-animation: draw-lines 1s linear forwards;
+    }
+    
+    li[data-q="1"] path {
+        @include a-delay(0.6s);
+    }
+
+    li[data-q="2"] path {
+        @include a-delay(0.9s);
+    }
+
+    li[data-q="3"] path {
+        @include a-delay(1.1s);
+    }
+
+    li[data-q="4"] path {
+        @include a-delay(1.3s);
+    }
+} 
+
+// Screen Block
+.screen-block {
+
+    .screen-column:nth-child(2){
+        .move-fade {
+            @include a-delay(0.25s)
+        }
+    }
+
+    .screen-column:nth-child(3){
+        .move-fade {
+            @include a-delay(0.4s)
+        }
+    }
+}
+
+// Fly 
+.fly {
+    animation:fly 8.5s ease-in-out alternate infinite;
+    -webkit-animation:fly 8.5s ease-in-out alternate infinite;
+}
+
+.fly-top {
+    animation:fly-top 4.5s ease-in-out 0.2s alternate infinite;
+    -webkit-animation:fly-top 4.5s ease-in-out 0.2s alternate infinite;
+}
+
+.fly-btm {
+    animation:fly-btm 5s ease-in-out alternate infinite;
+    -webkit-animation:fly-btm 5s ease-in-out alternate infinite;
+}
+
+.fly-b {
+    animation:fly-b 8.5s ease-in-out alternate infinite;
+    -webkit-animation:fly-b 8.5s ease-in-out alternate infinite;
+}
+
+.fly-b-top {
+    animation:fly-b-top 6.5s ease-in-out 0.5s alternate infinite;
+    -webkit-animation:fly-b-top 6.5s ease-in-out 0.5s alternate infinite;
+}
+
+.fly-b-btm {
+    animation:fly-b-btm 5.5s ease-in-out alternate infinite;
+    -webkit-animation:fly-b-btm 5.5s ease-in-out alternate infinite;
+}
+
+@keyframes fly {
+    0% {
+        @include ty(-20px);
+    }
+
+    100% {
+        @include ty(20px);
+    }
+}
+
+@keyframes fly-top {
+    0% {
+       @include ty(-20px);
+    }
+
+    100% {
+        @include ty(5px);
+    }
+}
+
+@keyframes fly-btm {
+    0% {
+        @include ty(-5px);
+    }
+
+    100% {
+        @include ty(20px);
+    }
+}
+
+@-webkit-keyframes fly {
+    0% {
+        @include ty(-20px);
+    }
+
+    100% {
+        @include ty(20px);
+    }
+}
+
+@-webkit-keyframes fly-top {
+    0% {
+        @include ty(-20px);
+    }
+
+    100% {
+        @include ty(5px);
+    }
+}
+
+@-webkit-keyframes fly-btm {
+    0% {
+        @include ty(-5px);
+    }
+
+    100% {
+        @include ty(20px);
+    }
+}
+
+@keyframes fly-b {
+    0% {
+        @include ty(-60px);
+    }
+
+    100% {
+        @include ty(60px);
+    }
+}
+
+@keyframes fly-b-top {
+    0% {
+       @include ty(-60px);
+    }
+
+    100% {
+        @include ty(15px);
+    }
+}
+
+@keyframes fly-b-btm {
+    0% {
+        @include ty(-15px);
+    }
+
+    100% {
+        @include ty(60px);
+    }
+}
+
+// Interface Animate Color
+.int-desc-col.animate {
+    .line-block {
+        span.hor:after {
+            @include a-delay(0.8s);
+        }
+
+        i {
+            @include delay(1.3s);
+        }
+    }
+
+    .fade {
+        @include delay(1.4s);
+    }
+}
+
+// Statictic
+.animate {
+    .circle-1, .circle-2 {
+        animation: spin 1.0s linear 0.5s 2;
+        -webkit-animation: spin 1.0s 0.5s linear 2;
+        transform-origin:50% 50%;
+    }
+} 
+
+@-moz-document url-prefix() { 
+    .animate {
+        .circle-1, .circle-2 {
+            animation-play-state: paused !important;
+        }
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+        -webkit-transform: rotateZ(360deg);
+        -ms-transform: rotateZ(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        transform: rotateZ(0deg);
+        -webkit-transform: rotateZ(0deg);
+        -ms-transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+        -webkit-transform: rotateZ(360deg);
+        -ms-transform: rotateZ(360deg);
+    }
+}
+
+.column-top {
+    transform-origin:50% 50%;
+}
+
+.column-top, .column-1-mask, .column-2-mask, .column-3-mask, .column-4-mask {
+    @include trans(0.9s);
+}
+
+.column-1-top {
+    transform: translateY(135px);
+    -webkit-transform: translateY(135px);
+    -ms-transform: translateY(135px);
+}
+
+.column-2-top {
+    transform: translateY(185px);
+    -webkit-transform: translateY(185px);
+    -ms-transform: translateY(185px);
+}
+
+.column-3-top {
+    transform: translateY(144px);
+    -webkit-transform: translateY(144px);
+    -ms-transform: translateY(144px);
+}
+
+.column-4-top {
+    transform: translateY(175px);
+    -webkit-transform: translateY(175px);
+    -ms-transform: translateY(175px);
+}
+
+.animate  {
+    .column-1-top, .column-1-mask {
+        @include delay(0.7s);
+    }
+
+    .column-2-top, .column-2-mask {
+        @include delay(1.0s);
+    }
+
+    .column-3-top, .column-3-mask {
+        @include delay(1.3s);
+    }
+
+    .column-4-top, .column-4-mask {
+        @include delay(1.6s);
+    }
+
+    .column-1-mask {
+        transform: translateY(-136px);
+        -webkit-transform: translateY(-136px);
+        -ms-transform: translateY(-136px);
+    }
+
+    .column-2-mask {
+        transform: translateY(-186px);
+        -webkit-transform: translateY(-186px);
+        -ms-transform: translateY(-186px);
+    }
+
+    .column-3-mask {
+        transform: translateY(-145px);
+        -webkit-transform: translateY(-145px);
+        -ms-transform: translateY(-145px);
+    }
+
+    .column-4-mask {
+        transform: translateY(-176px);
+        -webkit-transform: translateY(-176px);
+        -ms-transform: translateY(-176px);
+    }
+
+    .column-top {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+    }
+}
+
+// Rules Navigation
+.animate .avatar-fig {
+    @include a-time(10s);
+}
+
+// Final
+.page {
+    @extend .trans-all;
+
+    &.page-2 {
+        @include delay(0.2s);
+    }
+
+    &.page-3 {
+        @include delay(0.4s);
+    }
+}
+
+.animate .int-desc-final {
+
+    .line-block {
+        span.hor-1:after {
+            @include a-delay(0.6s);
+        }
+
+        span.ver-1:after {
+            @include a-delay(1.0s);
+        }
+
+        span.hor-2:after {
+            @include a-delay(1.4s);
+        }
+
+        i {
+            @include delay(1.9s);
+        }
+    }
+
+    .int-desc-text {
+        @include delay(2.0s);
+    }
+}
+
+// Queue
+.animate {
+    *[data-q="1"] {
+        @include a-delay(0.3s);
+    }
+
+    *[data-q="2"] {
+        @include a-delay(0.6s);
+    }
+
+    *[data-q="3"] {
+        @include a-delay(0.8s);
+    }
+
+    *[data-q="4"] {
+        @include a-delay(1.0s);
+    }
+
+    *[data-q="5"] {
+        @include a-delay(1.2s);
+    }
+}
+
+
+/* No Jasvascript */
+.no-js {
+    .preloader {
+        display: none;
+    }
+
+    .laptop .dribble {
+        margin-top: 0;
+    }
+
+    *[data-animate="from-bottom"], .hier-text-wrap, .val-name, .fade, .move-fade, .val-circle {
+        opacity: 1 !important;
+    }
+
+    *[data-animate="from-left"] {
+        left: 0;
+    }
+
+    .move-fade {
+        transform: translateY(0px) !important;
+        -webkit-transform: translateY(0px) !important;
+        -ms-transform: translateY(0px) !important;
+    }
+}

@@ -1,0 +1,37 @@
+<svg id="Слой_1" xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+  <rect fill="#001239" width="1200" height="750"/>
+  <g id="lines">
+    <g id="top">
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="1139.5" y1="83" x2="1139.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="1059.5" y1="21" x2="1059.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="969.5" y1="140" x2="969.5" y2="82" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="879.5" y1="57" x2="879.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="809.5" y1="83" x2="809.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="729.5" y1="115" x2="729.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="649.5" y1="227" x2="649.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="569.5" y1="297" x2="569.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="479.5" y1="203" x2="479.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="389.5" y1="131" x2="389.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="319.5" y1="83" x2="319.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="239.5" y1="115" x2="239.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="159.5" y1="156" x2="159.5" y2="2" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="79.5" y1="203" x2="79.5" y2="2" opacity=".08"/>
+    </g>
+    <g id="bottom">
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="1139.5" y1="550" x2="1139.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="1059.5" y1="597" x2="1059.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="979.5" y1="636" x2="979.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="899.5" y1="668" x2="899.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="829.5" y1="683" x2="829.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="739.5" y1="664" x2="739.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="649.5" y1="597" x2="649.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="569.5" y1="636" x2="569.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="489.5" y1="636" x2="489.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="409.5" y1="668" x2="409.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="339.5" y1="710" x2="339.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="249.5" y1="699" x2="249.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="159.5" y1="597" x2="159.5" y2="749" opacity=".08"/>
+      <line fill="none" stroke="#FFF" stroke-miterlimit="10" x1="79.5" y1="636" x2="79.5" y2="749" opacity=".08"/>
+    </g>
+  </g>
+</svg>

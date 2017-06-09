@@ -1,0 +1,18 @@
+.white-tab {
+	 display: none;
+}
+.white-tab.active {
+	 display: block;
+}
+
+@media screen and (min-width: 1800px) {
+	 
+}
+
+@media screen and (max-width: 1199px) {
+	 
+}
+
+@media screen and (max-width: 740px) {
+	 
+}

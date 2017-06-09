@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<title>BOLO mobile</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="address=no">
+		<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"  />
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+		
+        <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+        <link type="text/css" rel="stylesheet" href="css/swiper.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+        <link type="text/css" rel="stylesheet" href="css/svg.css" />
+		<link type="text/css" rel="stylesheet" href="css/main.css" />
+	</head>
+	
+	<body>
+		
+		<div class="btn-menu-wrap">
+			<div class="socket">
+				<button id="btn-menu" type="button">
+					<i></i>
+					<i></i>
+					<i></i>
+				</button>
+
+				<a  class="logo" href="index.htm">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152.61 16.75"><g ><g><path d="M4.9.36A6.19,6.19,0,0,1,9,1.58a4.13,4.13,0,0,1,1.15,3,3.52,3.52,0,0,1-.53,2A2.93,2.93,0,0,1,8.26,7.82,4.17,4.17,0,0,1,10.47,8.9a3.81,3.81,0,0,1,1,2.86A4.29,4.29,0,0,1,10.25,15,6.07,6.07,0,0,1,6,16.37H0V.36ZM3.65,6.86h.6a3.48,3.48,0,0,0,1.87-.46A1.67,1.67,0,0,0,6.77,5a1.63,1.63,0,0,0-.62-1.34,3.11,3.11,0,0,0-1.92-.41H3.65Zm0,6.62h.89a3.94,3.94,0,0,0,2.74-.65A1.69,1.69,0,0,0,7.8,11.5a1.64,1.64,0,0,0-.5-1.3,4.14,4.14,0,0,0-2.64-.6h-1Z"/><path d="M30.44,2.33a8.2,8.2,0,0,1,2.5,6,8.31,8.31,0,0,1-2.5,6,8.55,8.55,0,0,1-6.19,2.35A8.81,8.81,0,0,1,18,14.38a8.13,8.13,0,0,1-2.5-6A8.94,8.94,0,0,1,18,2.35,8.59,8.59,0,0,1,24.25,0,8.51,8.51,0,0,1,30.44,2.33ZM20.72,4.78A4.86,4.86,0,0,0,19.3,8.4,4.81,4.81,0,0,0,20.77,12a4.71,4.71,0,0,0,3.43,1.32A4.85,4.85,0,0,0,27.75,12a4.7,4.7,0,0,0,1.39-3.58,5,5,0,0,0-1.39-3.6,5.14,5.14,0,0,0-3.53-1.37A4.87,4.87,0,0,0,20.72,4.78Z"/><path d="M41.39.36V13.25h5v3.12H37.7V.36Z"/><path d="M64.13,2.33a8.2,8.2,0,0,1,2.5,6,8.31,8.31,0,0,1-2.5,6,8.55,8.55,0,0,1-6.19,2.35,8.81,8.81,0,0,1-6.24-2.35,8.13,8.13,0,0,1-2.5-6,8.94,8.94,0,0,1,2.47-6.07A8.59,8.59,0,0,1,57.94,0,8.51,8.51,0,0,1,64.13,2.33ZM54.41,4.78A4.86,4.86,0,0,0,53,8.4,4.81,4.81,0,0,0,54.46,12a4.71,4.71,0,0,0,3.43,1.32A4.85,4.85,0,0,0,61.44,12a4.7,4.7,0,0,0,1.39-3.58,5,5,0,0,0-1.39-3.6,5.14,5.14,0,0,0-3.53-1.37A4.87,4.87,0,0,0,54.41,4.78Z"/><path d="M71,12.39a2.18,2.18,0,1,1-2.18,2.18A2.16,2.16,0,0,1,71,12.39Z"/><path d="M89.63,15.87a7.22,7.22,0,0,1-3.53.86,8.58,8.58,0,0,1-6.29-2.33,8.38,8.38,0,0,1-2.5-6.07,8.4,8.4,0,0,1,2.5-6,8.54,8.54,0,0,1,6-2.3,9.54,9.54,0,0,1,3.84.89V5.16a5.07,5.07,0,0,0-3.74-1.7A4.47,4.47,0,0,0,82.62,4.7,5.13,5.13,0,0,0,81.1,8.4a4.72,4.72,0,0,0,1.39,3.53A4.85,4.85,0,0,0,86,13.27a5,5,0,0,0,3.67-1.66Z"/><path d="M104,13.35h-6l-1.22,3H92.87l6.46-16h3.38l6.31,16h-3.84Zm-1-2.83-2-5.38-2,5.38Z"/><path d="M121.08,4.27a3.9,3.9,0,0,0-2.69-1.15,2,2,0,0,0-1.56.55,1.37,1.37,0,0,0-.41,1,1.12,1.12,0,0,0,.36.89,6.43,6.43,0,0,0,2,.91l1.2.46a6.65,6.65,0,0,1,2.18,1.22,4,4,0,0,1,1.18,3,5.74,5.74,0,0,1-1.42,4,6.31,6.31,0,0,1-4.54,1.63,6.85,6.85,0,0,1-3.17-.67,9.7,9.7,0,0,1-2.35-1.75l1.92-2.64a8.74,8.74,0,0,0,1.49,1.22,3.78,3.78,0,0,0,2,.58,2.6,2.6,0,0,0,1.68-.55,1.66,1.66,0,0,0,.58-1.3,1.32,1.32,0,0,0-.55-1.15,7.8,7.8,0,0,0-1.87-.89l-1.32-.46a5.54,5.54,0,0,1-2.23-1.27,3.93,3.93,0,0,1-1-2.78A4.88,4.88,0,0,1,114,1.46,5.12,5.12,0,0,1,118,0a7.63,7.63,0,0,1,4.75,1.58Z"/><path d="M137.07,3.48h-5.35v3.1h5.09V9.7h-5.09v3.55h5.35v3.12h-9V.36h9Z"/><path d="M150.33,4.27a3.9,3.9,0,0,0-2.69-1.15,2,2,0,0,0-1.56.55,1.37,1.37,0,0,0-.41,1,1.12,1.12,0,0,0,.36.89,6.43,6.43,0,0,0,2,.91l1.2.46a6.65,6.65,0,0,1,2.18,1.22,4,4,0,0,1,1.18,3,5.74,5.74,0,0,1-1.42,4,6.31,6.31,0,0,1-4.54,1.63,6.85,6.85,0,0,1-3.17-.67,9.7,9.7,0,0,1-2.35-1.75l1.92-2.64a8.74,8.74,0,0,0,1.49,1.22,3.78,3.78,0,0,0,2,.58,2.6,2.6,0,0,0,1.68-.55,1.66,1.66,0,0,0,.58-1.3,1.32,1.32,0,0,0-.55-1.15,7.8,7.8,0,0,0-1.87-.89l-1.32-.46a5.54,5.54,0,0,1-2.23-1.27,3.93,3.93,0,0,1-1-2.78,4.88,4.88,0,0,1,1.39-3.6,5.12,5.12,0,0,1,4-1.46A7.63,7.63,0,0,1,152,1.58Z"/></g></g></svg>
+				</a>
+			</div>
+		</div>
+
+		<div class="menu-wrap">
+			<nav class="menu">
+				<ul>
+					<li><a href="index.htm">главная</a></li>
+					<li><a href="catalogue.htm">каталог</a></li>
+					<li><a href="case_name.htm">именные чехлы</a></li>
+					<li><a href="case_photo.htm">чехлы с фото</a></li>
+					<li><a href="share.htm">акция 1+1=3</a></li>
+					<li><a href="feedback.htm">отзывы</a></li>
+					<li><a href="faq.htm">частые вопросы</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div id="main">
+
+			<!-- Header -->
+			<header id="header" class="shadow"> 
+				<div class="socket">
+					<div class="header-items">
+						<div class="items-wrap">
+							<div class="items bkt basket-open empty">
+								<i></i>
+							</div>
+						</div>
+
+						<div class="items-wrap">
+							<div class="items fav fav-open empty">
+								<i></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header><!-- / Header -->
+
+			<!-- Fav Basket Drop -->
+			<div class="header-fav-drop">
+				<div class="socket info-row">
+					В избранном пусто
+				</div>
+			</div><!-- / Fav Basket Drop -->
+
+			<!-- Header Basket Drop -->
+			<div class="header-basket-drop">
+				<div class="socket">
+					<div class="info-row">
+						Ваша козина пуста
+					</div>
+				</div>
+			</div><!-- / Header Basket Drop -->
+			
+			<div id="content" class="socket">
+
+				<!-- Filter -->
+				<div class="filter-wrap margin-mob">
+					<div class="filter-top block">
+						<div class="filter-button" data-id="f1">
+							<div class="filter-button-i">
+								<div class="ico">
+									<div class="cell">
+										<div class="def">
+											<img src="images/ico-filter.gif" alt="">
+										</div>
+										<div class="hov">
+											<img src="images/ico-filter-h.gif" alt="">
+										</div>
+									</div>
+								</div>
+								<span>Фильтр</span>
+							</div>
+						</div>
+						<div class="filter-button" data-id="f2">
+							<div class="filter-button-i">
+								<div class="ico">
+									<div class="cell">
+										<div class="def">
+											<img src="images/ico-iphone.gif" alt="">
+										</div>
+										<div class="hov">
+											<img src="images/ico-iphone-h.gif" alt="">
+										</div>
+									</div>
+								</div>
+								<span>iPhone 6</span>
+								<input type="text" value="phone-2">
+							</div>
+						</div>
+					</div>
+					
+					<div class="filter-drop-wrap" id="f1">
+						<div class="filter-drop block">
+							<div class="price-block">
+								<div class="price-body">
+				    				<div class="price-inputs">
+				    					<input placeholder="от" id="input-price-1" type="text">
+				    					<input placeholder="до" id="input-price-2" type="text">
+				    				</div>
+
+				    				<div id="slider-range"></div>
+
+				    				<div class="lim">
+				    					<span>159</span>
+				    					<span>1000</span>
+				    				</div>
+				    			</div>
+			    			</div>
+
+			    			<div class="filter-point">
+			    				<div class="filter-point-head">
+			    					<i class="delete"></i>
+			    					<span>Самые популярные</span>
+			    					<div></div>
+			    					<input class="filter-point-input" type="text">
+			    				</div>
+			    				<div class="filter-point-drop">
+			    					<div class="filter-point-item">
+			    						Самые популярные
+			    					</div>
+			    					<div class="filter-point-item">
+			    						Самые дешевые
+			    					</div>
+			    					<div class="filter-point-item">
+			    						Самые самые
+			    					</div>
+			    				</div>
+			    			</div>
+
+			    			<div class="filter-point">
+			    				<div class="filter-point-head">
+			    					<i class="delete"></i>
+			    					<span>Модель телефона</span>
+			    					<div></div>
+			    					<input class="filter-point-input" type="text">
+			    				</div>
+			    				<div class="filter-point-drop">
+			    					<div class="filter-point-item">
+			    						iPhone 6
+			    					</div>
+			    					<div class="filter-point-item">
+			    						iPhone 6s
+			    					</div>
+			    					<div class="filter-point-item">
+			    						iPhone 7
+			    					</div>
+			    				</div>
+			    			</div>
+
+			    			<div class="filter-point">
+			    				<div class="filter-point-head">
+			    					<i class="delete"></i>
+			    					<span>Материал</span>
+			    					<div></div>
+			    					<input class="filter-point-input" type="text">
+			    				</div>
+			    				<div class="filter-point-drop">
+			    					<div class="filter-point-item">
+			    						Пластик
+			    					</div>
+			    					<div class="filter-point-item">
+			    						Металл
+			    					</div>
+			    					<div class="filter-point-item">
+			    						Резина
+			    					</div>
+			    				</div>
+			    			</div>
+
+			    			<div class="filter-point">
+			    				<div class="filter-point-head">
+			    					<i class="delete"></i>
+			    					<span>Тип чехла</span>
+			    					<div></div>
+			    					<input class="filter-point-input" type="text">
+			    				</div>
+			    				<div class="filter-point-drop">
+			    					<div class="filter-point-item">
+			    						Удобные
+			    					</div>
+			    					<div class="filter-point-item">
+			    						Метательные
+			    					</div>
+			    				</div>
+			    			</div>
+						</div>
+
+						<div class="filter-bottom block">
+							<div class="filter-button">
+								<button type="reset">
+									сбросить фильтр
+								</button>
+							</div>
+							<div class="filter-button">
+								<button type="submit">
+									Показать чехлы
+								</button>
+							</div>
+						</div>		
+					</div>	
+
+					<div class="filter-drop-wrap" id="f2">
+						<div class="filter-phone-drop phone-list clearfix block">
+							<div class="phone-item" data-id="phone-1">
+								<div class="ico ico-1">
+									<div class="def">
+										
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.5 83"><g ><g ><path class="cls-1" d="M18.4,6.6H24a.5.5,0,0,0,0-1.1H18.4a.5.5,0,0,0,0,1.1Zm0,0"/><path class="cls-1" d="M48.4,13.7v5.6c0,.3.2.5.4.5s.4-.2.4-.5V13.7c0-.3-.2-.5-.4-.5s-.4.2-.4.5Zm0,0"/><path class="cls-1" d="M49.3,23.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M49.3,27.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M16.9,6.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="cls-2" x="1" y="1" width="39.9" height="80.97" rx="6.1" ry="6.1"/><rect class="cls-3" x="4" y="10.1" width="33.8" height="59.9"/><rect class="cls-4" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="cls-5" cx="20.6" cy="75.6" r="3"/><rect class="cls-2" x="46" y="1" width="5.4" height="80.97" rx="2.7" ry="2.7"/></g></g>
+										</svg>
+									</div>
+									<div class="hov">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52.5 83"><defs><linearGradient id="g_7" x1="17.85" y1="6.07" x2="24.52" y2="6.07" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#60e8bd"/><stop offset="1" stop-color="#00bcd4"/></linearGradient><linearGradient id="g_7-2" x1="48.4" y1="16.5" x2="49.13" y2="16.5" xlink:href="#g_7"/><linearGradient id="g_7-3" x1="48.2" y1="23.21" x2="49.34" y2="23.21" xlink:href="#g_7"/><linearGradient id="g_7-4" x1="48.2" y1="27.21" x2="49.34" y2="27.21" xlink:href="#g_7"/><linearGradient id="g_7-5" x1="15.78" y1="6.06" x2="16.93" y2="6.06" xlink:href="#g_7"/><linearGradient id="g_7-6" x1="0" y1="41.48" x2="41.9" y2="41.48" xlink:href="#g_7"/><linearGradient id="g_7-7" x1="3.53" y1="40.01" x2="38.37" y2="40.01" xlink:href="#g_7"/><linearGradient id="g_7-8" x1="6.56" y1="40.01" x2="35.34" y2="40.01" xlink:href="#g_7"/><linearGradient id="g_7-9" x1="17.09" y1="75.61" x2="24.09" y2="75.61" xlink:href="#g_7"/><linearGradient id="g_7-10" x1="45.05" y1="41.48" x2="52.48" y2="41.48" xlink:href="#g_7"/><linearGradient id="g_7-11" x1="46.22" y1="10.65" x2="51.22" y2="10.65" xlink:href="#g_7"/></defs><path class="grad-1" d="M18.4,6.6H24a.5.5,0,0,0,0-1.1H18.4a.5.5,0,0,0,0,1.1Zm0,0"/><path class="grad-2" d="M48.4,13.7v5.6c0,.3.2.5.4.5s.4-.2.4-.5V13.7c0-.3-.2-.5-.4-.5s-.4.2-.4.5Zm0,0"/><path class="grad-3" d="M49.3,23.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="grad-4" d="M49.3,27.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="grad-5" d="M16.9,6.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="grad-6" x="1" y="1" width="39.9" height="80.97" rx="6.1" ry="6.1"/><rect class="grad-7" x="4" y="10.1" width="33.8" height="59.9"/><rect class="grad-8" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="grad-9" cx="20.6" cy="75.6" r="3"/><rect class="grad-10" x="46" y="1" width="5.4" height="80.97" rx="2.7" ry="2.7"/><line class="grad-11" x1="46.2" y1="10.7" x2="51.2" y2="10.7"/></g></g></svg>
+									</div>
+								</div>
+								<div class="title-m">iphone 7</div>
+								<span class="title-d">364 чехлов</span>
+							</div>
+
+							<div class="phone-item" data-id="phone-2">
+								<div class="ico ico-2">
+									<div class="def">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.5 83"><g><g><path class="cls-1" d="M18.4,6.6H24a.5.5,0,0,0,0-1.1H18.4a.5.5,0,0,0,0,1.1Zm0,0"/><path class="cls-1" d="M48.4,13.7v5.6c0,.3.2.5.4.5s.4-.2.4-.5V13.7c0-.3-.2-.5-.4-.5s-.4.2-.4.5Zm0,0"/><path class="cls-1" d="M49.3,23.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M49.3,27.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M16.9,6.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="cls-2" x="1" y="1" width="39.9" height="80.97" rx="6.1" ry="6.1"/><rect class="cls-3" x="4" y="10.1" width="33.8" height="59.9"/><rect class="cls-4" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="cls-5" cx="20.6" cy="75.6" r="3"/><rect class="cls-2" x="46" y="1" width="5.4" height="80.97" rx="2.7" ry="2.7"/></g></g></svg>
+									</div>
+									<div class="hov">
+										
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52.5 83"><defs><linearGradient id="g_7" x1="17.85" y1="6.07" x2="24.52" y2="6.07" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#60e8bd"/><stop offset="1" stop-color="#00bcd4"/></linearGradient><linearGradient id="g_7-2" x1="48.4" y1="16.5" x2="49.13" y2="16.5" xlink:href="#g_7"/><linearGradient id="g_7-3" x1="48.2" y1="23.21" x2="49.34" y2="23.21" xlink:href="#g_7"/><linearGradient id="g_7-4" x1="48.2" y1="27.21" x2="49.34" y2="27.21" xlink:href="#g_7"/><linearGradient id="g_7-5" x1="15.78" y1="6.06" x2="16.93" y2="6.06" xlink:href="#g_7"/><linearGradient id="g_7-6" x1="0" y1="41.48" x2="41.9" y2="41.48" xlink:href="#g_7"/><linearGradient id="g_7-7" x1="3.53" y1="40.01" x2="38.37" y2="40.01" xlink:href="#g_7"/><linearGradient id="g_7-8" x1="6.56" y1="40.01" x2="35.34" y2="40.01" xlink:href="#g_7"/><linearGradient id="g_7-9" x1="17.09" y1="75.61" x2="24.09" y2="75.61" xlink:href="#g_7"/><linearGradient id="g_7-10" x1="45.05" y1="41.48" x2="52.48" y2="41.48" xlink:href="#g_7"/><linearGradient id="g_7-11" x1="46.22" y1="10.65" x2="51.22" y2="10.65" xlink:href="#g_7"/></defs><g id="Шар_2" data-name="Шар 2"><g id="Шар_1-2" data-name="Шар 1"><path class="grad-1" d="M18.4,6.6H24a.5.5,0,0,0,0-1.1H18.4a.5.5,0,0,0,0,1.1Zm0,0"/><path class="grad-2" d="M48.4,13.7v5.6c0,.3.2.5.4.5s.4-.2.4-.5V13.7c0-.3-.2-.5-.4-.5s-.4.2-.4.5Zm0,0"/><path class="grad-3" d="M49.3,23.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="grad-4" d="M49.3,27.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="grad-5" d="M16.9,6.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="grad-6" x="1" y="1" width="39.9" height="80.97" rx="6.1" ry="6.1"/><rect class="grad-7" x="4" y="10.1" width="33.8" height="59.9"/><rect class="grad-8" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="grad-9" cx="20.6" cy="75.6" r="3"/><rect class="grad-10" x="46" y="1" width="5.4" height="80.97" rx="2.7" ry="2.7"/><line class="grad-11" x1="46.2" y1="10.7" x2="51.2" y2="10.7"/></g></g></svg>
+									</div>
+								</div>
+								<div class="title-m">iphone 7 PLUS</div>
+								<span class="title-d">100 чехлов</span>
+							</div>
+
+							<div class="phone-item" data-id="phone-3">
+								<div class="ico ico-3">
+									<div class="def">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.5 83"><g><g><path class="cls-1" d="M18.4,6.6H24a.5.5,0,0,0,0-1.1H18.4a.5.5,0,0,0,0,1.1Zm0,0"/><path class="cls-1" d="M48.4,13.7v5.6c0,.3.2.5.4.5s.4-.2.4-.5V13.7c0-.3-.2-.5-.4-.5s-.4.2-.4.5Zm0,0"/><path class="cls-1" d="M49.3,23.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M49.3,27.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M16.9,6.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="cls-2" x="1" y="1" width="39.9" height="80.97" rx="6.1" ry="6.1"/><rect class="cls-3" x="4" y="10.1" width="33.8" height="59.9"/><rect class="cls-4" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="cls-5" cx="20.6" cy="75.6" r="3"/><rect class="cls-2" x="46" y="1" width="5.4" height="80.97" rx="2.7" ry="2.7"/></g></g></svg>
+									</div>
+									<div class="hov">
+										
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52.5 83"><defs><linearGradient id="g_7" x1="17.85" y1="6.07" x2="24.52" y2="6.07" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#60e8bd"/><stop offset="1" stop-color="#00bcd4"/></linearGradient><linearGradient id="g_7-2" x1="48.4" y1="16.5" x2="49.13" y2="16.5" xlink:href="#g_7"/><linearGradient id="g_7-3" x1="48.2" y1="23.21" x2="49.34" y2="23.21" xlink:href="#g_7"/><linearGradient id="g_7-4" x1="48.2" y1="27.21" x2="49.34" y2="27.21" xlink:href="#g_7"/><linearGradient id="g_7-5" x1="15.78" y1="6.06" x2="16.93" y2="6.06" xlink:href="#g_7"/><linearGradient id="g_7-6" x1="0" y1="41.48" x2="41.9" y2="41.48" xlink:href="#g_7"/><linearGradient id="g_7-7" x1="3.53" y1="40.01" x2="38.37" y2="40.01" xlink:href="#g_7"/><linearGradient id="g_7-8" x1="6.56" y1="40.01" x2="35.34" y2="40.01" xlink:href="#g_7"/><linearGradient id="g_7-9" x1="17.09" y1="75.61" x2="24.09" y2="75.61" xlink:href="#g_7"/><linearGradient id="g_7-10" x1="45.05" y1="41.48" x2="52.48" y2="41.48" xlink:href="#g_7"/><linearGradient id="g_7-11" x1="46.22" y1="10.65" x2="51.22" y2="10.65" xlink:href="#g_7"/></defs><g id="Шар_2" data-name="Шар 2"><g id="Шар_1-2" data-name="Шар 1"><path class="grad-1" d="M18.4,6.6H24a.5.5,0,0,0,0-1.1H18.4a.5.5,0,0,0,0,1.1Zm0,0"/><path class="grad-2" d="M48.4,13.7v5.6c0,.3.2.5.4.5s.4-.2.4-.5V13.7c0-.3-.2-.5-.4-.5s-.4.2-.4.5Zm0,0"/><path class="grad-3" d="M49.3,23.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="grad-4" d="M49.3,27.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="grad-5" d="M16.9,6.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="grad-6" x="1" y="1" width="39.9" height="80.97" rx="6.1" ry="6.1"/><rect class="grad-7" x="4" y="10.1" width="33.8" height="59.9"/><rect class="grad-8" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="grad-9" cx="20.6" cy="75.6" r="3"/><rect class="grad-10" x="46" y="1" width="5.4" height="80.97" rx="2.7" ry="2.7"/><line class="grad-11" x1="46.2" y1="10.7" x2="51.2" y2="10.7"/></g></g></svg>
+									</div>
+								</div>
+								<div class="title-m">iphone 6</div>
+								<span class="title-d">55 чехлов</span>
+							</div>
+
+							<div class="phone-item" data-id="phone-4">
+								<div class="ico ico-4">
+									<div class="def">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.5 83"><g><g><path class="cls-1" d="M18.4,6.6H24a.5.5,0,0,0,0-1.1H18.4a.5.5,0,0,0,0,1.1Zm0,0"/><path class="cls-1" d="M48.4,13.7v5.6c0,.3.2.5.4.5s.4-.2.4-.5V13.7c0-.3-.2-.5-.4-.5s-.4.2-.4.5Zm0,0"/><path class="cls-1" d="M49.3,23.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M49.3,27.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M16.9,6.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="cls-2" x="1" y="1" width="39.9" height="80.97" rx="6.1" ry="6.1"/><rect class="cls-3" x="4" y="10.1" width="33.8" height="59.9"/><rect class="cls-4" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="cls-5" cx="20.6" cy="75.6" r="3"/><rect class="cls-2" x="46" y="1" width="5.4" height="80.97" rx="2.7" ry="2.7"/></g></g></svg>
+									</div>
+									<div class="hov">
+										
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52.5 83"><defs><linearGradient id="g_7" x1="17.85" y1="6.07" x2="24.52" y2="6.07" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#60e8bd"/><stop offset="1" stop-color="#00bcd4"/></linearGradient><linearGradient id="g_7-2" x1="48.4" y1="16.5" x2="49.13" y2="16.5" xlink:href="#g_7"/><linearGradient id="g_7-3" x1="48.2" y1="23.21" x2="49.34" y2="23.21" xlink:href="#g_7"/><linearGradient id="g_7-4" x1="48.2" y1="27.21" x2="49.34" y2="27.21" xlink:href="#g_7"/><linearGradient id="g_7-5" x1="15.78" y1="6.06" x2="16.93" y2="6.06" xlink:href="#g_7"/><linearGradient id="g_7-6" x1="0" y1="41.48" x2="41.9" y2="41.48" xlink:href="#g_7"/><linearGradient id="g_7-7" x1="3.53" y1="40.01" x2="38.37" y2="40.01" xlink:href="#g_7"/><linearGradient id="g_7-8" x1="6.56" y1="40.01" x2="35.34" y2="40.01" xlink:href="#g_7"/><linearGradient id="g_7-9" x1="17.09" y1="75.61" x2="24.09" y2="75.61" xlink:href="#g_7"/><linearGradient id="g_7-10" x1="45.05" y1="41.48" x2="52.48" y2="41.48" xlink:href="#g_7"/><linearGradient id="g_7-11" x1="46.22" y1="10.65" x2="51.22" y2="10.65" xlink:href="#g_7"/></defs><g id="Шар_2" data-name="Шар 2"><g id="Шар_1-2" data-name="Шар 1"><path class="grad-1" d="M18.4,6.6H24a.5.5,0,0,0,0-1.1H18.4a.5.5,0,0,0,0,1.1Zm0,0"/><path class="grad-2" d="M48.4,13.7v5.6c0,.3.2.5.4.5s.4-.2.4-.5V13.7c0-.3-.2-.5-.4-.5s-.4.2-.4.5Zm0,0"/><path class="grad-3" d="M49.3,23.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="grad-4" d="M49.3,27.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="grad-5" d="M16.9,6.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="grad-6" x="1" y="1" width="39.9" height="80.97" rx="6.1" ry="6.1"/><rect class="grad-7" x="4" y="10.1" width="33.8" height="59.9"/><rect class="grad-8" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="grad-9" cx="20.6" cy="75.6" r="3"/><rect class="grad-10" x="46" y="1" width="5.4" height="80.97" rx="2.7" ry="2.7"/><line class="grad-11" x1="46.2" y1="10.7" x2="51.2" y2="10.7"/></g></g></svg>
+									</div>
+								</div>
+								<div class="title-m">iphone 6 PLUS</div>
+								<span class="title-d">406 чехлов</span>
+							</div>
+
+							<div class="phone-item" data-id="phone-5">
+								<div class="ico ico-5">
+									<div class="def">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.5 83"><g><g><path class="cls-1" d="M18.4,7.6H24a.5.5,0,0,0,0-1.1H18.4a.5.5,0,0,0,0,1.1Zm0,0"/><path class="cls-1" d="M48.4,13.7v5.6c0,.3.2.5.4.5s.4-.2.4-.5V13.7c0-.3-.2-.5-.4-.5s-.4.2-.4.5Zm0,0"/><path class="cls-1" d="M22,4.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M49.3,23.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M49.3,27.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M16.9,7.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="cls-2" x="1" y="1" width="39.9" height="80.97" rx="6.1" ry="6.1"/><rect class="cls-3" x="4" y="10.1" width="33.8" height="59.9"/><rect class="cls-4" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="cls-5" cx="20.6" cy="75.6" r="3"/><rect class="cls-2" x="46" y="1" width="5.4" height="80.97" rx="1" ry="1"/><line class="cls-3" x1="46.2" y1="10.2" x2="51.2" y2="10.2"/></g></g>
+										</svg>
+									</div>
+									<div class="hov">
+										
+										
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52.5 83"><defs><linearGradient id="g__7" x1="17.85" y1="7.07" x2="24.52" y2="7.07" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#60e8bd"/><stop offset="1" stop-color="#00bcd4"/></linearGradient><linearGradient id="g__7-2" x1="48.4" y1="16.5" x2="49.13" y2="16.5" xlink:href="#g__7"/><linearGradient id="g__7-3" x1="20.86" y1="4.21" x2="22" y2="4.21" xlink:href="#g__7"/><linearGradient id="g__7-4" x1="48.2" y1="23.21" x2="49.34" y2="23.21" xlink:href="#g__7"/><linearGradient id="g__7-5" x1="48.2" y1="27.21" x2="49.34" y2="27.21" xlink:href="#g__7"/><linearGradient id="g__7-6" x1="15.78" y1="7.06" x2="16.93" y2="7.06" xlink:href="#g__7"/><linearGradient id="g__7-7" x1="0" y1="41.48" x2="41.9" y2="41.48" xlink:href="#g__7"/><linearGradient id="g__7-8" x1="3.53" y1="40.01" x2="38.37" y2="40.01" xlink:href="#g__7"/><linearGradient id="g__7-9" x1="6.56" y1="40.01" x2="35.34" y2="40.01" xlink:href="#g__7"/><linearGradient id="g__7-10" x1="17.09" y1="75.61" x2="24.09" y2="75.61" xlink:href="#g__7"/><linearGradient id="g__7-11" x1="45.05" y1="41.48" x2="52.48" y2="41.48" xlink:href="#g__7"/><linearGradient id="g__7-12" x1="45.72" y1="10.15" x2="51.72" y2="10.15" xlink:href="#g__7"/></defs><g id="Шар_2" data-name="Шар 2"><g id="Шар_1-2" data-name="Шар 1"><path class="grad--1" d="M18.4,7.6H24a.5.5,0,0,0,0-1.1H18.4a.5.5,0,0,0,0,1.1Zm0,0"/><path class="grad--2" d="M48.4,13.7v5.6c0,.3.2.5.4.5s.4-.2.4-.5V13.7c0-.3-.2-.5-.4-.5s-.4.2-.4.5Zm0,0"/><path class="grad--3" d="M22,4.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="grad--4" d="M49.3,23.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="grad--5" d="M49.3,27.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="grad--6" d="M16.9,7.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="grad--7" x="1" y="1" width="39.9" height="80.97" rx="6.1" ry="6.1"/><rect class="grad--8" x="4" y="10.1" width="33.8" height="59.9"/><rect class="grad--9" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="grad--10" cx="20.6" cy="75.6" r="3"/><rect class="grad--11" x="46" y="1" width="5.4" height="80.97" rx="1" ry="1"/><line class="grad--12" x1="46.2" y1="10.2" x2="51.2" y2="10.2"/></g></g></svg>
+									</div>
+								</div>
+								<div class="title-m">iphone 5/5s</div>
+								<span class="title-d">5 чехлов</span>
+							</div>
+
+							<div class="phone-item" data-id="phone-6">
+								<div class="ico ico-6">
+									<div class="def">
+										
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.5 83"><g ><g><path class="cls1-1" d="M18.5,7.6h6.8a.6.6,0,0,0,.6-.5.6.6,0,0,0-.6-.5H18.5a.6.6,0,0,0-.6.5.6.6,0,0,0,.6.5Zm0,0"/><path class="cls1-1" d="M19.7,5.6h4.3a.5.5,0,0,0,.4-.5.5.5,0,0,0-.4-.5H19.7a.5.5,0,0,0-.4.5.5.5,0,0,0,.4.5Zm0,0"/><path class="cls1-1" d="M48.5,10.5v3.6c0,.2.1.3.2.3s.2-.2.2-.3V10.5c0-.2-.1-.3-.2-.3s-.2.2-.2.3Zm0,0"/><path class="cls1-1" d="M49.3,18.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls1-1" d="M49.3,22.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls1-1" d="M16.9,7.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="cls1-2" x="1" y="1" width="39.9" height="80.97" rx="4.5" ry="4.5"/><rect class="cls1-3" x="4" y="10.1" width="33.8" height="59.9"/><rect class="cls1-4" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="cls1-5" cx="20.6" cy="75.6" r="3"/><path class="cls1-2" d="M50.4,1h0a1,1,0,0,1,1,1V80.9a1,1,0,0,1-1,1h0A4.4,4.4,0,0,1,46,77.6V5.4A4.4,4.4,0,0,1,50.4,1Z"/><rect class="cls1-6" x="19.6" y="74.7" width="1.9" height="1.86"/></g></g></svg>
+									</div>
+									<div class="hov">
+										
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 52.5 83"><defs><linearGradient id="gg_7" x1="17.85" y1="7.07" x2="25.92" y2="7.07" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#60e8bd"/><stop offset="1" stop-color="#00bcd4"/></linearGradient><linearGradient id="gg_7-2" x1="19.31" y1="5.07" x2="24.47" y2="5.07" xlink:href="#gg_7"/><linearGradient id="gg_7-3" x1="48.53" y1="12.33" x2="49" y2="12.33" xlink:href="#gg_7"/><linearGradient id="gg_7-4" x1="48.2" y1="18.21" x2="49.34" y2="18.21" xlink:href="#gg_7"/><linearGradient id="gg_7-5" x1="48.2" y1="22.21" x2="49.34" y2="22.21" xlink:href="#gg_7"/><linearGradient id="gg_7-6" x1="15.78" y1="7.06" x2="16.93" y2="7.06" xlink:href="#gg_7"/><linearGradient id="gg_7-7" x1="0" y1="41.48" x2="41.9" y2="41.48" xlink:href="#gg_7"/><linearGradient id="gg_7-8" x1="3.53" y1="40.01" x2="38.37" y2="40.01" xlink:href="#gg_7"/><linearGradient id="gg_7-9" x1="6.56" y1="40.01" x2="35.34" y2="40.01" xlink:href="#gg_7"/><linearGradient id="gg_7-10" x1="17.09" y1="75.61" x2="24.09" y2="75.61" xlink:href="#gg_7"/><linearGradient id="gg_7-11" x1="45.05" y1="41.48" x2="52.48" y2="41.48" xlink:href="#gg_7"/><linearGradient id="gg_7-12" x1="19.36" y1="75.61" x2="21.79" y2="75.61" xlink:href="#gg_7"/></defs><g id="Шар_2" data-name="Шар 2"><g id="Шар_1-2" data-name="Шар 1"><path class="clss-1" d="M18.5,7.6h6.8a.6.6,0,0,0,.6-.5.6.6,0,0,0-.6-.5H18.5a.6.6,0,0,0-.6.5.6.6,0,0,0,.6.5Zm0,0"/><path class="clss-2" d="M19.7,5.6h4.3a.5.5,0,0,0,.4-.5.5.5,0,0,0-.4-.5H19.7a.5.5,0,0,0-.4.5.5.5,0,0,0,.4.5Zm0,0"/><path class="clss-3" d="M48.5,10.5v3.6c0,.2.1.3.2.3s.2-.2.2-.3V10.5c0-.2-.1-.3-.2-.3s-.2.2-.2.3Zm0,0"/><path class="clss-4" d="M49.3,18.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="clss-5" d="M49.3,22.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="clss-6" d="M16.9,7.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="clss-7" x="1" y="1" width="39.9" height="80.97" rx="4.5" ry="4.5"/><rect class="clss-8" x="4" y="10.1" width="33.8" height="59.9"/><rect class="clss-9" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="clss-10" cx="20.6" cy="75.6" r="3"/><path class="clss-11" d="M50.4,1h0a1,1,0,0,1,1,1V80.9a1,1,0,0,1-1,1h0A4.4,4.4,0,0,1,46,77.6V5.4A4.4,4.4,0,0,1,50.4,1Z"/><rect class="clss-13" x="19.6" y="74.7" width="1.9" height="1.86"/></g></g></svg>
+									</div>
+								</div>
+								<div class="title-m">iphone 5c</div>
+								<span class="title-d">125 чехлов</span>
+							</div>
+
+							<div class="phone-item" data-id="phone-7">
+								<div class="ico ico-7">
+									<div class="def">
+										
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54.2 83"><defs><style></style></defs><g ><g ><path class="cls-1" d="M18.5,7.6h6.8a.6.6,0,0,0,.6-.5.6.6,0,0,0-.6-.5H18.5a.6.6,0,0,0-.6.5.6.6,0,0,0,.6.5Zm0,0"/><path class="cls-1" d="M19.7,5.6h4.3a.5.5,0,0,0,.4-.5.5.5,0,0,0-.4-.5H19.7a.5.5,0,0,0-.4.5.5.5,0,0,0,.4.5Zm0,0"/><path class="cls-1" d="M49.7,10.5v3.6c0,.2.1.3.2.3s.2-.2.2-.3V10.5c0-.2-.1-.3-.2-.3s-.2.2-.2.3Zm0,0"/><path class="cls-1" d="M50.5,18.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M50.5,22.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-1" d="M16.9,7.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="cls-2" x="1" y="1" width="39.9" height="80.97" rx="7.4" ry="7.4"/><rect class="cls-3" x="4" y="10.1" width="33.8" height="59.9"/><rect class="cls-4" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="cls-5" cx="20.6" cy="75.6" r="3"/><rect class="cls-2" x="46.7" y="1" width="6.5" height="80.97" rx="1" ry="1"/><rect class="cls-6" x="19.6" y="74.7" width="1.9" height="1.86"/></g></g></svg>
+									</div>
+									<div class="hov">
+										
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 54.2 83"><defs><linearGradient id="g2_7" x1="17.85" y1="7.07" x2="25.92" y2="7.07" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#60e8bd"/><stop offset="1" stop-color="#00bcd4"/></linearGradient><linearGradient id="g2_7-2" x1="19.31" y1="5.07" x2="24.47" y2="5.07" xlink:href="#g2_7"/><linearGradient id="g2_7-3" x1="49.73" y1="12.33" x2="50.2" y2="12.33" xlink:href="#g2_7"/><linearGradient id="g2_7-4" x1="49.39" y1="18.21" x2="50.53" y2="18.21" xlink:href="#g2_7"/><linearGradient id="g2_7-5" x1="49.39" y1="22.21" x2="50.53" y2="22.21" xlink:href="#g2_7"/><linearGradient id="g2_7-6" x1="15.78" y1="7.06" x2="16.93" y2="7.06" xlink:href="#g2_7"/><linearGradient id="g2_7-7" x1="0" y1="41.48" x2="41.9" y2="41.48" xlink:href="#g2_7"/><linearGradient id="g2_7-8" x1="3.53" y1="40.01" x2="38.37" y2="40.01" xlink:href="#g2_7"/><linearGradient id="g2_7-9" x1="6.56" y1="40.01" x2="35.34" y2="40.01" xlink:href="#g2_7"/><linearGradient id="g2_7-10" x1="17.09" y1="75.61" x2="24.09" y2="75.61" xlink:href="#g2_7"/><linearGradient id="g2_7-11" x1="45.71" y1="41.48" x2="54.21" y2="41.48" xlink:href="#g2_7"/><linearGradient id="g2_7-12" x1="19.36" y1="75.61" x2="21.79" y2="75.61" xlink:href="#g2_7"/></defs><g ><g ><path class="cls-21" d="M18.5,7.6h6.8a.6.6,0,0,0,.6-.5.6.6,0,0,0-.6-.5H18.5a.6.6,0,0,0-.6.5.6.6,0,0,0,.6.5Zm0,0"/><path class="cls-22" d="M19.7,5.6h4.3a.5.5,0,0,0,.4-.5.5.5,0,0,0-.4-.5H19.7a.5.5,0,0,0-.4.5.5.5,0,0,0,.4.5Zm0,0"/><path class="cls-23" d="M49.7,10.5v3.6c0,.2.1.3.2.3s.2-.2.2-.3V10.5c0-.2-.1-.3-.2-.3s-.2.2-.2.3Zm0,0"/><path class="cls-24" d="M50.5,18.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-25" d="M50.5,22.2a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-26" d="M16.9,7.1a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><rect class="cls-27" x="1" y="1" width="39.9" height="80.97" rx="7.4" ry="7.4"/><rect class="cls-28" x="4" y="10.1" width="33.8" height="59.9"/><rect class="cls-29" x="6.6" y="13.4" width="28.8" height="53.28"/><circle class="cls-210" cx="20.6" cy="75.6" r="3"/><rect class="cls-211" x="46.7" y="1" width="6.5" height="80.97" rx="1" ry="1"/><rect class="cls-213" x="19.6" y="74.7" width="1.9" height="1.86"/></g></g>
+										</svg>
+									</div>
+								</div>
+								<div class="title-m">iphone 4/4s</div>
+								<span class="title-d">940 чехлов</span>
+							</div>
+
+							<div class="phone-item" data-id="phone-8">
+								<div class="ico ico-8">
+									<div class="def">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88.3 102.1"><g ><g ><path class="cls-31" d="M84.2,13.6V20c0,.3.2.6.4.6s.4-.3.4-.6V13.6c0-.3-.2-.6-.4-.6s-.4.3-.4.6Zm0,0"/><path class="cls-31" d="M85.2,24.5a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><path class="cls-31" d="M85.2,29.1a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><path class="cls-31" d="M38.2,7.4a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><rect class="cls-32" x="1" y="1" width="73" height="100.06" rx="4.9" ry="4.9"/><rect class="cls-33" x="4.1" y="12.2" width="66.7" height="76.55"/><rect class="cls-34" x="7.6" y="16.4" width="59.8" height="68.09"/><circle class="cls-35" cx="37.5" cy="94.2" r="3"/><path class="cls-32" d="M84,1h3.3a0,0,0,0,1,0,0V101.1a0,0,0,0,1,0,0H84a2.2,2.2,0,0,1-2.2-2.2V3.2A2.2,2.2,0,0,1,84,1Z"/></g></g>
+										</svg>
+									</div>
+									<div class="hov">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 88.3 102.1"><defs><linearGradient id="g3_7" x1="84.17" y1="16.82" x2="85" y2="16.82" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#60e8bd"/><stop offset="1" stop-color="#00bcd4"/></linearGradient><linearGradient id="g3_7-2" x1="83.93" y1="24.53" x2="85.24" y2="24.53" xlink:href="#g3_7"/><linearGradient id="g3_7-3" x1="36.78" y1="7.42" x2="38.19" y2="7.42" xlink:href="#g3_7"/><linearGradient id="g3_7-4" x1="0" y1="51.03" x2="74.97" y2="51.03" xlink:href="#g3_7"/><linearGradient id="g3_7-5" x1="3.63" y1="50.48" x2="71.34" y2="50.48" xlink:href="#g3_7"/><linearGradient id="g3_7-6" x1="7.6" y1="50.48" x2="67.36" y2="50.48" xlink:href="#g3_7"/><linearGradient id="g3_7-7" x1="34" y1="94.21" x2="40.99" y2="94.21" xlink:href="#g3_7"/><linearGradient id="g3_7-8" x1="80.86" y1="51.03" x2="88.3" y2="51.03" xlink:href="#g3_7"/><linearGradient id="g3_7-9" x1="82.11" y1="9.75" x2="86.11" y2="9.75" xlink:href="#g3_7"/></defs><g ><g><path class="cls-41" d="M84.2,13.6V20c0,.3.2.6.4.6s.4-.3.4-.6V13.6c0-.3-.2-.6-.4-.6s-.4.3-.4.6Zm0,0"/><path class="cls-42" d="M85.2,24.5a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><path class="cls-43" d="M85.2,29.1a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><path class="cls-44" d="M38.2,7.4a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><rect class="cls-45" x="1" y="1" width="73" height="100.06" rx="4.9" ry="4.9"/><rect class="cls-46" x="4.1" y="12.2" width="66.7" height="76.55"/><rect class="cls-47" x="7.6" y="16.4" width="59.8" height="68.09"/><circle class="cls-48" cx="37.5" cy="94.2" r="3"/><path class="cls-49" d="M84,1h3.3a0,0,0,0,1,0,0V101.1a0,0,0,0,1,0,0H84a2.2,2.2,0,0,1-2.2-2.2V3.2A2.2,2.2,0,0,1,84,1Z"/><line class="cls-410" x1="82.1" y1="9.7" x2="86.1" y2="9.7"/></g></g>
+										</svg>
+									</div>
+								</div>
+								<div class="title-m">IPAD Air 1/2</div>
+								<span class="title-d">76 чехлов</span>
+							</div>
+
+							<div class="phone-item" data-id="phone-9">
+								<div class="ico ico-9">
+									<div class="def">		
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88.3 102.1"><g ><g><path class="cls-51" d="M84.2,13.6V20c0,.3.2.6.4.6s.4-.3.4-.6V13.6c0-.3-.2-.6-.4-.6s-.4.3-.4.6Zm0,0"/><path class="cls-51" d="M85.2,24.5a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><path class="cls-51" d="M85.2,29.1a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><path class="cls-51" d="M38.2,7.4a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><rect class="cls-52" x="1" y="1" width="73" height="100.06" rx="4.9" ry="4.9"/><rect class="cls-53" x="4.1" y="12.2" width="66.7" height="76.55"/><rect class="cls-54" x="7.6" y="16.4" width="59.8" height="68.09"/><circle class="cls-55" cx="37.5" cy="94.2" r="3"/><path class="cls-52" d="M86,1h0a1.3,1.3,0,0,1,1.3,1.3V99.7a1.3,1.3,0,0,1-1.3,1.3h0A4.1,4.1,0,0,1,81.9,97V5.1A4.1,4.1,0,0,1,86,1Z"/><rect class="cls-56" x="36.5" y="93.3" width="1.9" height="1.86"/></g></g>
+										</svg>
+									</div>
+									<div class="hov">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 88.3 102.1"><defs><linearGradient id="g4_7" x1="84.17" y1="16.82" x2="85" y2="16.82" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#60e8bd"/><stop offset="1" stop-color="#00bcd4"/></linearGradient><linearGradient id="g4_7-2" x1="83.93" y1="24.53" x2="85.24" y2="24.53" xlink:href="#g4_7"/><linearGradient id="g4_7-3" x1="36.78" y1="7.42" x2="38.19" y2="7.42" xlink:href="#g4_7"/><linearGradient id="g4_7-4" x1="0" y1="51.03" x2="74.97" y2="51.03" xlink:href="#g4_7"/><linearGradient id="g4_7-5" x1="3.63" y1="50.48" x2="71.34" y2="50.48" xlink:href="#g4_7"/><linearGradient id="g4_7-6" x1="7.6" y1="50.48" x2="67.36" y2="50.48" xlink:href="#g4_7"/><linearGradient id="g4_7-7" x1="34" y1="94.21" x2="40.99" y2="94.21" xlink:href="#g4_7"/><linearGradient id="g4_7-8" x1="80.86" y1="51.03" x2="88.3" y2="51.03" xlink:href="#g4_7"/><linearGradient id="g4_7-9" x1="82.11" y1="9.75" x2="86.11" y2="9.75" xlink:href="#g4_7"/></defs><g ><g><path class="cls-61" d="M84.2,13.6V20c0,.3.2.6.4.6s.4-.3.4-.6V13.6c0-.3-.2-.6-.4-.6s-.4.3-.4.6Zm0,0"/><path class="cls-62" d="M85.2,24.5a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><path class="cls-63" d="M85.2,29.1a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><path class="cls-64" d="M38.2,7.4a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><rect class="cls-65" x="1" y="1" width="73" height="100.06" rx="4.9" ry="4.9"/><rect class="cls-66" x="4.1" y="12.2" width="66.7" height="76.55"/><rect class="cls-67" x="7.6" y="16.4" width="59.8" height="68.09"/><circle class="cls-68" cx="37.5" cy="94.2" r="3"/><path class="cls-69" d="M84,1h3.3a0,0,0,0,1,0,0V101.1a0,0,0,0,1,0,0H84a2.2,2.2,0,0,1-2.2-2.2V3.2A2.2,2.2,0,0,1,84,1Z"/><line class="cls-610" x1="82.1" y1="9.7" x2="86.1" y2="9.7"/></g></g>
+										</svg>
+									</div>
+								</div>
+								<div class="title-m">IPAD 2/3/4</div>
+								<span class="title-d">1550 чехлов</span>
+							</div>
+
+							<div class="phone-item" data-id="phone-10">
+								<div class="ico ico-10">
+									<div class="def">		
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84.4 97.6"><g><g><path class="cls-71" d="M80.4,13v6.2c0,.3.2.6.4.6s.4-.3.4-.6V13c0-.3-.2-.6-.4-.6s-.4.3-.4.6Zm0,0"/><path class="cls-71" d="M81.5,23.5a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-71" d="M81.5,27.9a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-71" d="M36.5,7.1a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><rect class="cls-72" x="1" y="1" width="69.7" height="95.56" rx="4.9" ry="4.9"/><rect class="cls-73" x="7.3" y="11.7" width="57.1" height="73.11"/><rect class="cls-74" x="10.2" y="15.7" width="51.2" height="65.03"/><circle class="cls-75" cx="35.9" cy="90" r="2.9"/><path class="cls-72" d="M82.2,1h0a1.3,1.3,0,0,1,1.3,1.3v93a1.3,1.3,0,0,1-1.3,1.3h0a3.9,3.9,0,0,1-3.9-3.9V4.9A3.9,3.9,0,0,1,82.2,1Z"/><line class="cls-73" x1="78.1" y1="8.8" x2="82.1" y2="8.8"/><rect class="cls-76" x="34.9" y="89.1" width="1.9" height="1.86"/></g></g>
+										</svg>
+									</div>
+									<div class="hov">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 84.4 97.6"><defs><style></style><linearGradient id="g5_7" x1="80.44" y1="16.11" x2="81.23" y2="16.11" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#60e8bd"/><stop offset="1" stop-color="#00bcd4"/></linearGradient><linearGradient id="g5_7-2" x1="80.21" y1="23.47" x2="81.46" y2="23.47" xlink:href="#g5_7"/><linearGradient id="g5_7-3" x1="80.21" y1="27.86" x2="81.46" y2="27.86" xlink:href="#g5_7"/><linearGradient id="g5_7-4" x1="35.17" y1="7.13" x2="36.52" y2="7.13" xlink:href="#g5_7"/><linearGradient id="g5_7-5" x1="0" y1="48.78" x2="71.68" y2="48.78" xlink:href="#g5_7"/><linearGradient id="g5_7-6" x1="6.81" y1="48.25" x2="64.88" y2="48.25" xlink:href="#g5_7"/><linearGradient id="g5_7-7" x1="10.25" y1="48.25" x2="61.44" y2="48.25" xlink:href="#g5_7"/><linearGradient id="g5_7-8" x1="32.51" y1="90.02" x2="39.23" y2="90.02" xlink:href="#g5_7"/><linearGradient id="g5_7-9" x1="77.24" y1="48.78" x2="84.43" y2="48.78" xlink:href="#g5_7"/><linearGradient id="g5_7-10" x1="78.13" y1="9.25" x2="82.13" y2="9.25" xlink:href="#g5_7"/><linearGradient id="g5_7-11" x1="34.63" y1="90.02" x2="37.06" y2="90.02" xlink:href="#g5_7"/></defs><g ><g ><path class="cls-81" d="M80.4,13v6.2c0,.3.2.6.4.6s.4-.3.4-.6V13c0-.3-.2-.6-.4-.6s-.4.3-.4.6Zm0,0"/><path class="cls-82" d="M81.5,23.5a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-83" d="M81.5,27.9a.6.6,0,1,1-.6-.6.6.6,0,0,1,.6.6Zm0,0"/><path class="cls-84" d="M36.5,7.1a.7.7,0,1,1-.7-.7.7.7,0,0,1,.7.7Zm0,0"/><rect class="cls-85" x="1" y="1" width="69.7" height="95.56" rx="4.9" ry="4.9"/><rect class="cls-86" x="7.3" y="11.7" width="57.1" height="73.11"/><rect class="cls-87" x="10.2" y="15.7" width="51.2" height="65.03"/><circle class="cls-88" cx="35.9" cy="90" r="2.9"/><path class="cls-89" d="M82.2,1h0a1.3,1.3,0,0,1,1.3,1.3v93a1.3,1.3,0,0,1-1.3,1.3h0a3.9,3.9,0,0,1-3.9-3.9V4.9A3.9,3.9,0,0,1,82.2,1Z"/><line class="cls-810" x1="78.1" y1="9.3" x2="82.1" y2="9.3"/><rect class="cls-811" x="34.9" y="89.1" width="1.9" height="1.86"/></g></g>
+										</svg>
+									</div>
+								</div>
+								<div class="title-m">IPAD</div>
+								<span class="title-d">900 чехлов</span>
+							</div>
+						</div>
+						
+						<div class="filter-bottom block">
+							<div class="filter-button">
+								<button type="reset">
+									сбросить фильтр
+								</button>
+							</div>
+							<div class="filter-button">
+								<button type="submit">
+									Показать чехлы
+								</button>
+							</div>
+						</div>
+					</div>		
+				</div><!-- / Filter -->
+				
+				<!-- Prod Card -->
+				<div class="prod-card-wrap block margin-mob">
+					<div class="image-side">
+						<div class="image-phone">
+							<img src="images/phone-p.png" alt="">
+						</div>
+
+						<div class="prod-colors">
+		    				<label class="prod-color move">
+		    					<img src="images/col-1.png" alt="">
+		    					<input checked type="radio" name="color">
+		    					<span></span>
+		    				</label>
+		    				<label class="prod-color move">
+		    					<img src="images/col-2.png" alt="">
+		    					<input type="radio" name="color">
+		    					<span></span>
+		    				</label>
+		    				<label class="prod-color move">
+		    					<img src="images/col-3.png" alt="">
+		    					<input type="radio" name="color">
+		    					<span></span>
+		    				</label>
+		    				<label class="prod-color move">
+		    					<img src="images/col-4.png" alt="">
+		    					<input type="radio" name="color">
+		    					<span></span>
+		    				</label>
+		    			</div>
+					</div>
+
+					<div class="desc-side">
+						<div class="desc-side-top">
+							<div class="title">Girl’in’Cap</div>
+							<div class="title-s">Артикул №24429</div>
+
+							<div class="price">849 грн.</div>
+						</div>
+
+						<label class="checkbox-item">
+							<input type="checkbox">
+							<div class="checkbox"></div>
+							<div class="checkbox-text">
+								Добавить защитное стекло <br>( 199 грн. економия 30 грн.)
+							</div>
+						</label>
+
+						<div class="desc-text">
+							<p>
+								Приятный на ощупь и плотно прилегает к Вашему девайсу. Онне только защищает Ваш телефон от царапин задней крышки и боковых сторон, он также подчеркивает Вашу индивидуальность.
+							</p>
+						</div>
+
+						<div class="desc-buttons">
+							<div class="btn-wrap">
+								<button class="btn btn-b">
+									<span>Добавить в корзину</span>
+								</button>
+							</div>
+							<button class="btn-circ">
+								<span class="ico">
+									<img src="images/svg/ico-basket.svg" alt="">
+								</span>
+							</button>
+							<button class="btn-circ">
+								<span class="ico">
+									<img src="images/svg/ico-fav.svg" alt="">
+								</span>
+							</button>
+						</div>
+
+					</div>
+				</div><!-- / Prod Card -->
+				
+			</div><!-- / Content .sokcet -->
+
+			<div class="prod-card-desc">
+				<div class="socket">
+					<div class="desc-section">
+						<div class="title">Идеально сидит</div>
+						<p>
+							Производство на профессиональном японском оборудовании, которое позволяет добиваться найлучшего качества передачи цвета и четкости изображения.
+						</p>
+
+						<div class="desc-buttons">
+							<div class="btn-wrap">
+								<button class="btn btn-b">
+									<span>Добавить в корзину</span>
+								</button>
+							</div>
+							<button class="btn-circ">
+								<span class="ico">
+									<img src="images/svg/ico-basket.svg" alt="">
+								</span>
+							</button>
+							<button class="btn-circ">
+								<span class="ico">
+									<img src="images/svg/ico-fav.svg" alt="">
+								</span>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<img class="desc-image" src="images/tel-desc.png" alt="">
+			</div>
+
+			<div class="prod-card-i">
+				<div class="socket">
+					<hgroup class="title-wrap title-wrap-center">
+				    	<div class="title">
+				    		Твой идеальный пластиковый чехол
+				    	</div>
+				    	<div class="title-s">
+				    		Купи два чехла и получи 3-й в подарок! <br>Любые три чехла выбирает
+				    	</div>
+					</hgroup>
+
+					<div class="tel-case-desc">
+						<img class="tel-desc-img" src="images/case-mdl.png" alt="">
+					</div>
+
+					<div class="desc-points">
+						<div class="desc-point desc-point-1">
+							<div class="ico">
+								<span>
+									<img src="images/svg/ico_6.svg" alt="">
+								</span>
+							</div>
+							<div class="desc-point-ttl">
+								Премиум качество
+							</div>
+						</div>
+
+						<div class="desc-point desc-point-2">
+							<div class="ico">
+								<span>
+									<img src="images/svg/ico_1.svg" alt="">
+								</span>
+							</div>
+							<div class="desc-point-ttl">
+								Защищает от всех <br>видов повреждений
+							</div>
+						</div>
+
+						<div class="desc-point desc-point-3">
+							<div class="ico">
+								<span>
+									<img src="images/svg/ico_5.svg" alt="">
+								</span>
+							</div>
+							<div class="desc-point-ttl">
+								Безупречно сидит
+							</div>
+						</div>
+
+						<div class="desc-point desc-point-4">
+							<div class="ico">
+								<span>
+									<img src="images/svg/ico_4.svg" alt="">
+								</span>
+							</div>
+							<div class="desc-point-ttl">
+								Тонкий и легкий
+							</div>
+						</div>
+
+						<div class="desc-point desc-point-5">
+							<div class="ico">
+								<span>
+									<img src="images/svg/ico_3.svg" alt="">
+								</span>
+							</div>
+							<div class="desc-point-ttl">
+								Рисунок никогда <br> не сотрется
+							</div>
+						</div>
+
+						<div class="desc-point desc-point-6">
+							<div class="ico">
+								<span>
+									<img src="images/svg/ico_2.svg" alt="">
+								</span>
+							</div>
+							<div class="desc-point-ttl">
+								Удобные вырезы <br> под кнопки 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="prod-card-desc-2">
+				<div class="socket clearfix">
+					<div class="desc-section">
+						<div class="title">Невероятная четкость рисунка</div>
+						<p>
+							Производство на профессиональном японском оборудовании, которое позволяет добиваться найлучшего качества передачи цвета и четкости изображения.
+						</p>
+
+						<div class="desc-buttons">
+							<div class="btn-wrap">
+								<button class="btn btn-b">
+									<span>Добавить в корзину</span>
+								</button>
+							</div>
+							<button class="btn-circ">
+								<span class="ico">
+									<img src="images/svg/ico-basket.svg" alt="">
+								</span>
+							</button>
+							<button class="btn-circ">
+								<span class="ico">
+									<img src="images/svg/ico-fav.svg" alt="">
+								</span>
+							</button>
+						</div>
+					</div>
+				</div>
+
+				<img class="desc-image move-right" data-q="1" src="images/tel-desc-2.png" alt="">
+			</div>
+
+
+			<div class="unic-design animate-item">
+				<div class="socket">
+					<hgroup class="title-wrap">
+				    	<div class="title">Уникальный дизайн</div>
+				    	<div class="title-s">
+				    		Выбраны только самые лучшие и качественные принты. <br>Все дизайны подбираются в ручную и являются уникальными!
+				    	</div>
+					</hgroup>
+
+					<div class="desc-buttons">
+						<div class="btn-wrap">
+							<button class="btn btn-b">
+								<span>Добавить в корзину</span>
+							</button>
+						</div>
+						<button class="btn-circ">
+							<span class="ico">
+								<img src="images/svg/ico-basket.svg" alt="">
+							</span>
+						</button>
+						<button class="btn-circ">
+							<span class="ico">
+								<img src="images/svg/ico-fav.svg" alt="">
+							</span>
+						</button>
+					</div>
+
+					<ul class="cases">
+						<li>
+							<img src="images/case-u-1.png" alt="">
+						</li>
+						<li>
+							<img src="images/case-u-2.png" alt="">
+						</li>
+						<li>
+							<img src="images/case-u-3.png" alt="">
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			
+
+			<!-- Social -->
+			<div class="social-wrap color-wrap socket">
+				<hgroup class="title-wrap title-wrap-center title-wrap-left-mob">
+			    	<div class="title">Понравился чехол?</div>
+			    	<div class="title-s">
+			    		Поделитись с людьми в соцсетях Вашим выбором!
+			    	</div>
+				</hgroup>
+				
+				<div class="social-block clearfix">
+					<a class="social-item block block-hover" href="#">
+						<span class="ico">
+							<img src="images/soc-vk.png" alt="">
+						</span>
+						<span class="prod-name">vkontakte</span>
+						<i>Поделились 385 человек</i>
+					</a>
+
+					<a class="social-item block block-hover" href="#">
+						<span class="ico">
+							<img src="images/soc-ins.png" alt="">
+						</span>
+						<span class="prod-name">instagram</span>
+						<i>Поделились 385 человек</i>
+					</a>
+
+					<a class="social-item block block-hover" href="#">
+						<span class="ico">
+							<img src="images/soc-fc.png" alt="">
+						</span>
+						<span class="prod-name">facebook</span>
+						<i>Поделились 385 человек</i>
+					</a>
+
+					<a class="social-item block block-hover" href="#">
+						<span class="ico">
+							<img src="images/soc-od.png" alt="">
+						</span>
+						<span class="prod-name">vkontakte</span>
+						<i>Поделились 385 человек</i>
+					</a>
+
+					<a class="social-item block block-hover" href="#">
+						<span class="ico">
+							<img src="images/soc-g.png" alt="">
+						</span>
+						<span class="prod-name">vkontakte</span>
+						<i>Поделились 385 человек</i>
+					</a>
+				</div>
+				
+			</div><!-- / Social -->
+
+			<div class="rec-wrap color-wrap socket">
+				<hgroup class="title-wrap title-wrap-center title-wrap-left-mob">
+			    	<div class="title">Рекомендуем</div>
+			    	<div class="title-s">
+			    		Рекомандии для вас
+			    	</div>
+			   	</hgroup>
+				
+				<div class="product-wrap product-wrap-r clearfix">
+				   	<div 
+	    				class="product-block swiper-slide block" 
+	    				data-id="product-1"
+	    			>
+	    				<div class="product-main">
+			    			<div class="img">
+			    				<img src="images/prod-img-1.png" alt="">
+			    			</div>
+			    			<div class="prod-name">girl’in’cap</div>
+			    			<div class="desc">Чехол для iPhone 6</div>	
+			    			<div class="price">238 грн.</div>
+						</div>
+		    			<ul class="product-menu">
+		    				<li>
+		    					<a class="in-detail" href="prod_card.htm">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm1.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Детали</i>
+		    					</a>
+		    				</li>
+		    				<!-- <li>
+		    					<a class="in-buy-q" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm2.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Купить быстро</i>
+		    					</a>
+		    				</li> -->
+		    				<li>
+		    					<a class="in-basket" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm3.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>В корзину</i>
+		    					</a>
+		    				</li>
+		    				<li>
+		    					<a class="in-fav" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm4.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Хочу попозже!</i>
+		    					</a>
+		    				</li>
+		    			</ul>
+		    		</div>
+
+		    		<div 
+	    				class="product-block swiper-slide block" 
+	    				data-id="product-2"
+	    			>
+	    				<div class="product-main">
+			    			<div class="img">
+			    				<img src="images/prod-img-2.png" alt="">
+			    			</div>
+			    			<div class="prod-name">girl’in’cap</div>
+			    			<div class="desc">Чехол для iPhone 6</div>	
+			    			<div class="price">540 грн.</div>
+						</div>
+		    			<ul class="product-menu">
+		    				<li>
+		    					<a class="in-detail" href="prod_card.htm">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm1.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Детали</i>
+		    					</a>
+		    				</li>
+		    				<!-- <li>
+		    					<a class="in-buy-q" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm2.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Купить быстро</i>
+		    					</a>
+		    				</li> -->
+		    				<li>
+		    					<a class="in-basket" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm3.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>В корзину</i>
+		    					</a>
+		    				</li>
+		    				<li>
+		    					<a class="in-fav" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm4.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Хочу попозже!</i>
+		    					</a>
+		    				</li>
+		    			</ul>
+		    		</div>
+
+		    		<div 
+	    				class="product-block swiper-slide block" 
+	    				data-id="product-3"
+	    			>
+	    				<div class="product-main">
+			    			<div class="img">
+			    				<img src="images/prod-img-3.png" alt="">
+			    			</div>
+			    			<div class="prod-name">girl’in’cap</div>
+			    			<div class="desc">Чехол для iPhone 6</div>	
+			    			<div class="price">782 грн.</div>
+						</div>
+		    			<ul class="product-menu">
+		    				<li>
+		    					<a class="in-detail" href="prod_card.htm">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm1.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Детали</i>
+		    					</a>
+		    				</li>
+		    				<!-- <li>
+		    					<a class="in-buy-q" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm2.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Купить быстро</i>
+		    					</a>
+		    				</li> -->
+		    				<li>
+		    					<a class="in-basket" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm3.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>В корзину</i>
+		    					</a>
+		    				</li>
+		    				<li>
+		    					<a class="in-fav" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm4.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Хочу попозже!</i>
+		    					</a>
+		    				</li>
+		    			</ul>
+		    		</div>
+
+		    		<div 
+	    				class="product-block swiper-slide block" 
+	    				data-id="product-4"
+	    			>
+	    				<div class="product-main">
+			    			<div class="img">
+			    				<img src="images/prod-img-4.png" alt="">
+			    			</div>
+			    			<div class="prod-name">girl’in’cap</div>
+			    			<div class="desc">Чехол для iPhone 6</div>	
+			    			<div class="price">1 300 грн.</div>
+						</div>
+		    			<ul class="product-menu">
+		    				<li>
+		    					<a class="in-detail" href="prod_card.htm">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm1.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Детали</i>
+		    					</a>
+		    				</li>
+		    				<!-- <li>
+		    					<a class="in-buy-q" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm2.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Купить быстро</i>
+		    					</a>
+		    				</li> -->
+		    				<li>
+		    					<a class="in-basket" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm3.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>В корзину</i>
+		    					</a>
+		    				</li>
+		    				<li>
+		    					<a class="in-fav" href="">
+		    						<span class="ico">
+		    							<span class="cell">
+		    								<img src="images/ico-pm4.png" alt="">
+		    							</span>
+		    						</span>
+		    						<i>Хочу попозже!</i>
+		    					</a>
+		    				</li>
+		    			</ul>
+		    		</div>
+	    		</div>
+
+			</div>
+			
+
+			
+
+		</div><!-- / Main -->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="socket">	
+				<ul class="social">
+					<li class="ico-1"><a href=""></a></li>
+					<li class="ico-2"><a href=""></a></li>
+					<li class="ico-3"><a href=""></a></li>
+				</ul>
+				<div class="copyright">&copy; 2009-2016 — ООО «bolo.cases»</div>
+			</div>
+		</footer><!-- / Footer -->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        
+       
+        
+		<!-- Scripts -->
+		<script src="./js/scripts.js"></script> 
+
+		<!-- Carousel -->
+        <script src="./js/swiper.jquery.min.js"></script> 
+        <script>
+        	
+    		var swiper = new Swiper('.swiper-container', {
+
+    			spaceBetween: 0,
+    			autoplayStopOnLast: true,
+    			autoplayDisableOnInteraction: false,
+    			touchMoveStopPropagation: true,
+    			slidesPerView: "auto",
+    			freeMode: false,
+    			autoplay: 1000,
+    			touchRatio: 0.5,
+    			
+    			loop: true,
+    			longSwipesRatio: 0.2,
+    			longSwipes: true,
+    			touchReleaseOnEdges: true,
+    			speed: 1000,
+
+    			breakpoints: {
+    				480: {
+    					centeredSlides: false,
+    					touchMoveStopPropagation:false
+    				}
+    			}
+		    });
+
+        </script>
+
+        <!-- Price -->
+        <script src="./js/nouislider.min.js"></script>
+        <script src="./js/wNumb.js"></script>
+        <script>
+            window.onload = function(){
+                var Slider = document.getElementById('slider-range');
+                var input1 = document.getElementById('input-price-1');
+                var input2 = document.getElementById('input-price-2');
+                var inputs = [input1, input2];
+
+                noUiSlider.create(Slider, {
+                    start: [200, 730],
+                    connect: true,
+                    range: {
+                        'min': 159,
+                        'max': 1000
+                    },
+
+                    format: wNumb({
+						decimals: 0,
+						postfix: ' грн.',
+					})
+                });
+
+                Slider.noUiSlider.on('update', function( values, handle ) {
+                    inputs[handle].value = values[handle];
+                });
+
+                function setSliderHandle(i, value) {
+					var r = [null,null];
+					r[i] = value;
+					Slider.noUiSlider.set(r);
+				}
+
+				inputs.forEach(function(input, handle) {
+
+					input.addEventListener('change', function(){
+						setSliderHandle(handle, this.value);
+					});
+
+					input.addEventListener('keydown', function( e ) {
+
+						var values = Slider.noUiSlider.get();
+						var value = Number(values[handle]);
+						var steps = Slider.noUiSlider.steps();
+						var step = steps[handle];
+						var position;
+
+						// 13 is enter,
+						// 38 is key up,
+						// 40 is key down.
+						switch ( e.which ) {
+
+							case 13:
+								setSliderHandle(handle, this.value);
+								break;
+
+							case 38:
+
+								position = step[1];
+
+								if ( position === false ) {
+									position = 1;
+								}
+
+								if ( position !== null ) {
+									setSliderHandle(handle, value + position);
+								}
+
+								break;
+
+							case 40:
+
+								position = step[0];
+
+								if ( position === false ) {
+									position = 1;
+								}
+
+								if ( position !== null ) {
+									setSliderHandle(handle, value - position);
+								}
+
+								break;
+						}
+					});
+				});
+            }
+        </script>	
+		
+		<!-- Live Reload -->
+		<script src="http://localhost:35729/livereload.js"></script>
+	</body>
+</html>

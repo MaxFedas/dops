@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="271px" height="188px" viewBox="-0.727 -1.199 271 188" enable-background="new -0.727 -1.199 271 188"
+	 xml:space="preserve">
+<defs>
+</defs>
+<g>
+	<defs>
+		<rect id="SVGID_14_" x="70.764" y="0.001" width="126.68" height="126.677"/>
+	</defs>
+	<clipPath id="SVGID_15_">
+		<use xlink:href="#SVGID_14_"  overflow="visible"/>
+	</clipPath>
+	
+		<circle clip-path="url(#SVGID_15_)" fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,3" cx="134.103" cy="63.339" r="62.589"/>
+</g>
+<path fill="#00133E" d="M193.075,63.339c0,32.57-26.402,58.974-58.973,58.974S75.13,95.909,75.13,63.339
+	c0-32.569,26.402-58.973,58.973-58.973S193.075,30.77,193.075,63.339"/>
+<circle fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="134.103" cy="63.339" r="58.973"/>
+<circle fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="28.322" cy="74.574" r="3.26"/>
+<polyline fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	57.352,64.802 28.322,64.802 28.322,71.313 "/>
+<circle fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="246.987" cy="95.625" r="3.261"/>
+<polyline fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	217.958,85.853 246.986,85.853 246.986,92.365 "/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="105.39" y1="22.804" x2="105.39" y2="37.496"/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="124.531" y1="13.551" x2="124.531" y2="37.497"/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="143.674" y1="13.551" x2="143.674" y2="37.497"/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="162.815" y1="22.804" x2="162.815" y2="37.496"/>
+<g>
+	<defs>
+		<rect id="SVGID_13_" x="70.764" y="59.223" width="126.68" height="126.677"/>
+	</defs>
+	<clipPath id="SVGID_16_">
+		<use xlink:href="#SVGID_13_"  overflow="visible"/>
+	</clipPath>
+	
+		<circle clip-path="url(#SVGID_16_)" fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,3" cx="134.103" cy="122.562" r="62.589"/>
+</g>
+<path fill="#00133E" d="M193.075,122.562c0,32.569-26.402,58.973-58.973,58.973S75.13,155.131,75.13,122.562
+	c0-32.57,26.402-58.974,58.973-58.974S193.075,89.991,193.075,122.562"/>
+<circle fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="134.103" cy="122.562" r="58.973"/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="162.815" y1="163.798" x2="162.815" y2="149.104"/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="143.674" y1="173.05" x2="143.674" y2="149.104"/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="124.531" y1="173.05" x2="124.531" y2="149.104"/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="105.39" y1="163.798" x2="105.39" y2="149.104"/>
+<path fill="#00133E" d="M212.289,37.497H55.917c-3.132,0-5.671,2.538-5.671,5.669v105.938h167.711V43.166
+	C217.957,40.035,215.42,37.497,212.289,37.497"/>
+<path fill="none" stroke="#285FAF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M212.289,37.497H55.917c-3.132,0-5.671,2.538-5.671,5.669v105.938h167.711V43.166C217.957,40.035,215.42,37.497,212.289,37.497z"/>
+<line fill="none" stroke="#285FAF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="50.896" y1="52.594" x2="217.958" y2="52.594"/>
+<g>
+	<defs>
+		<rect id="SVGID_12_" x="57.76" y="42.983" width="4.707" height="4.705"/>
+	</defs>
+	<clipPath id="SVGID_17_">
+		<use xlink:href="#SVGID_12_"  overflow="visible"/>
+	</clipPath>
+	
+		<circle clip-path="url(#SVGID_17_)" fill="none" stroke="#143C81" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="60.113" cy="45.336" r="1.853"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_11_" x="64.642" y="42.983" width="4.706" height="4.705"/>
+	</defs>
+	<clipPath id="SVGID_18_">
+		<use xlink:href="#SVGID_11_"  overflow="visible"/>
+	</clipPath>
+	
+		<circle clip-path="url(#SVGID_18_)" fill="none" stroke="#143C81" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="66.995" cy="45.336" r="1.853"/>
+</g>
+<g>
+	<defs>
+		<rect id="SVGID_10_" x="71.523" y="42.983" width="4.706" height="4.705"/>
+	</defs>
+	<clipPath id="SVGID_19_">
+		<use xlink:href="#SVGID_10_"  overflow="visible"/>
+	</clipPath>
+	
+		<circle clip-path="url(#SVGID_19_)" fill="none" stroke="#143C81" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="73.876" cy="45.336" r="1.853"/>
+</g>
+<path fill="#00133E" d="M177.428,77.516c0,26.365-35.811,45.857-89.589,45.857"/>
+<path fill="none" stroke="#285FAF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M177.428,77.516c0,26.365-35.811,45.857-89.589,45.857"/>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="65.364" y="51.844" width="136.939" height="94.006"/>
+	</defs>
+	<clipPath id="SVGID_20_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g opacity="0.3" clip-path="url(#SVGID_20_)">
+		<g>
+			<defs>
+				<rect id="SVGID_9_" x="85.443" y="51.844" width="1.5" height="94.006"/>
+			</defs>
+			<clipPath id="SVGID_21_">
+				<use xlink:href="#SVGID_9_"  overflow="visible"/>
+			</clipPath>
+			
+				<line clip-path="url(#SVGID_21_)" fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,3" x1="86.193" y1="145.1" x2="86.193" y2="52.594"/>
+		</g>
+	</g>
+	<g opacity="0.3" clip-path="url(#SVGID_20_)">
+		<g>
+			<defs>
+				<rect id="SVGID_8_" x="65.364" y="51.844" width="1.5" height="94.006"/>
+			</defs>
+			<clipPath id="SVGID_22_">
+				<use xlink:href="#SVGID_8_"  overflow="visible"/>
+			</clipPath>
+			
+				<line clip-path="url(#SVGID_22_)" fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,3" x1="66.115" y1="145.1" x2="66.115" y2="52.594"/>
+		</g>
+	</g>
+	<g opacity="0.3" clip-path="url(#SVGID_20_)">
+		<g>
+			<defs>
+				<rect id="SVGID_7_" x="200.804" y="51.844" width="1.5" height="94.006"/>
+			</defs>
+			<clipPath id="SVGID_23_">
+				<use xlink:href="#SVGID_7_"  overflow="visible"/>
+			</clipPath>
+			
+				<line clip-path="url(#SVGID_23_)" fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,3" x1="201.553" y1="145.1" x2="201.553" y2="52.594"/>
+		</g>
+	</g>
+	<g opacity="0.3" clip-path="url(#SVGID_20_)">
+		<g>
+			<defs>
+				<rect id="SVGID_6_" x="104.663" y="51.844" width="1.5" height="94.006"/>
+			</defs>
+			<clipPath id="SVGID_24_">
+				<use xlink:href="#SVGID_6_"  overflow="visible"/>
+			</clipPath>
+			
+				<line clip-path="url(#SVGID_24_)" fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,3" x1="105.41" y1="145.1" x2="105.41" y2="52.594"/>
+		</g>
+	</g>
+	<g opacity="0.3" clip-path="url(#SVGID_20_)">
+		<g>
+			<defs>
+				<rect id="SVGID_5_" x="123.873" y="51.844" width="1.5" height="94.006"/>
+			</defs>
+			<clipPath id="SVGID_25_">
+				<use xlink:href="#SVGID_5_"  overflow="visible"/>
+			</clipPath>
+			
+				<line clip-path="url(#SVGID_25_)" fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,3" x1="124.627" y1="145.1" x2="124.627" y2="52.594"/>
+		</g>
+	</g>
+	<g opacity="0.3" clip-path="url(#SVGID_20_)">
+		<g>
+			<defs>
+				<rect id="SVGID_4_" x="143.094" y="51.844" width="1.5" height="94.006"/>
+			</defs>
+			<clipPath id="SVGID_26_">
+				<use xlink:href="#SVGID_4_"  overflow="visible"/>
+			</clipPath>
+			
+				<line clip-path="url(#SVGID_26_)" fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,3" x1="143.844" y1="145.1" x2="143.844" y2="52.594"/>
+		</g>
+	</g>
+	<g opacity="0.3" clip-path="url(#SVGID_20_)">
+		<g>
+			<defs>
+				<rect id="SVGID_3_" x="162.313" y="51.844" width="1.5" height="94.006"/>
+			</defs>
+			<clipPath id="SVGID_27_">
+				<use xlink:href="#SVGID_3_"  overflow="visible"/>
+			</clipPath>
+			
+				<line clip-path="url(#SVGID_27_)" fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,3" x1="163.06" y1="145.1" x2="163.06" y2="52.594"/>
+		</g>
+	</g>
+	<g opacity="0.3" clip-path="url(#SVGID_20_)">
+		<g>
+			<defs>
+				<rect id="SVGID_2_" x="181.523" y="51.844" width="1.5" height="94.006"/>
+			</defs>
+			<clipPath id="SVGID_28_">
+				<use xlink:href="#SVGID_2_"  overflow="visible"/>
+			</clipPath>
+			
+				<line clip-path="url(#SVGID_28_)" fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="3,3" x1="182.276" y1="145.1" x2="182.276" y2="52.594"/>
+		</g>
+	</g>
+</g>
+<path fill="#005BFD" d="M91.996,123.547c0,3.203-2.599,5.802-5.803,5.802c-3.205,0-5.802-2.599-5.802-5.802
+	c0-3.204,2.597-5.803,5.802-5.803C89.397,117.744,91.996,120.343,91.996,123.547"/>
+<circle fill="none" stroke="#1490E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="86.194" cy="123.547" r="5.802"/>
+<circle fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="97.189" cy="85.853" r="3.791"/>
+<circle fill="none" stroke="#143C81" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="193.076" cy="135.621" r="3.791"/>
+<path fill="#005BFD" d="M196.867,66.402c0,11.3-9.161,20.461-20.462,20.461c-11.3,0-20.461-9.161-20.461-20.461
+	s9.161-20.461,20.461-20.461C187.706,45.941,196.867,55.103,196.867,66.402"/>
+<circle fill="none" stroke="#1490E7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="176.406" cy="66.402" r="20.461"/>
+<path fill="#00133E" d="M266.305,125.394h-34.77c-1.565,0-2.834-1.27-2.834-2.836v-13.714c0-1.564,1.269-2.834,2.834-2.834h34.77
+	c1.566,0,2.835,1.27,2.835,2.834v13.714C269.14,124.124,267.871,125.394,266.305,125.394"/>
+<path fill="none" stroke="#285FAF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M266.305,125.394h-34.77c-1.565,0-2.834-1.27-2.834-2.836v-13.714c0-1.564,1.269-2.834,2.834-2.834h34.77
+	c1.566,0,2.835,1.27,2.835,2.834v13.714C269.14,124.124,267.871,125.394,266.305,125.394z"/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="248.92" y1="112.431" x2="262.598" y2="112.431"/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="248.92" y1="118.973" x2="262.598" y2="118.973"/>
+<rect x="234.359" y="111.454" fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="8.697" height="8.495"/>
+<path fill="#00133E" d="M38.354,107.227H3.584c-1.565,0-2.834-1.27-2.834-2.835V90.677c0-1.564,1.269-2.834,2.834-2.834h34.77
+	c1.566,0,2.835,1.27,2.835,2.834v13.715C41.188,105.957,39.92,107.227,38.354,107.227"/>
+<path fill="none" stroke="#285FAF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M38.354,107.227H3.584c-1.565,0-2.834-1.27-2.834-2.835V90.677c0-1.564,1.269-2.834,2.834-2.834h34.77
+	c1.566,0,2.835,1.27,2.835,2.834v13.715C41.188,105.957,39.92,107.227,38.354,107.227z"/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="20.969" y1="94.264" x2="34.646" y2="94.264"/>
+<line fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="20.969" y1="100.806" x2="34.646" y2="100.806"/>
+<rect x="6.408" y="93.287" fill="none" stroke="#082765" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="8.697" height="8.495"/>
+<polyline fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	173.331,67.879 176.405,70.402 181.789,64.096 "/>
+</svg>

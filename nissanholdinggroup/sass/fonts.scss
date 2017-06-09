@@ -1,0 +1,90 @@
+/* =========================
+   Fonts
+   =========================*/
+
+body { font:normal 12px $font, Helvetica; color:#fff; line-height: 1; -ms-overflow-style: scrollbar; }
+body * { -webkit-font-smoothing: antialiased; text-shadow: 0 1px 0 rgba(0,0,0,0.01); }
+
+h1, h2, h3, h4, h5 { color: #fff; padding-bottom: 10px; text-transform: uppercase; }
+h1 { font-size: 55px; line-height: 45px; }
+h2 { font-size: 25px; line-height: 25px; }
+h3 { font-size: 20px; line-height: 21px; }
+h4 { font-size: 17px; line-height: 17px; }
+h5 { font-size: 13px; line-height: 16px; }
+
+a {
+    color: #fff;
+    
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+p {
+    font-size: 19px;
+    line-height: 31px;
+}
+
+
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: url("fonts/ProximaNova-Regular.eot");
+    src: url("fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+         url("fonts/ProximaNova-Regular.woff") format("woff"),
+         url("fonts/ProximaNova-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ProximaNova-Light";
+    src: url("fonts/ProximaNova-Light.eot");
+    src: url("fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"),
+         url("fonts/ProximaNova-Light.woff") format("woff"),
+         url("fonts/ProximaNova-Light.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ProximaNova-SemiBold";
+    src: url("fonts/ProximaNova-Semibold.eot");
+    src: url("fonts/ProximaNova-Semibold.eot?#iefix") format("embedded-opentype"),
+         url("fonts/ProximaNova-Semibold.woff") format("woff"),
+         url("fonts/ProximaNova-Semibold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "PlayfairDisplay-Regular";
+    src: url("fonts/PlayfairDisplay-Regular.eot");
+    src: url("fonts/PlayfairDisplay-Regular.eot?#iefix") format("embedded-opentype"),
+         url("fonts/PlayfairDisplay-Regular.woff") format("woff"),
+         url("fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "PlayfairDisplay-Italic";
+    src: url("fonts/PlayfairDisplay-Italic.eot");
+    src: url("fonts/PlayfairDisplay-Italic.eot?#iefix") format("embedded-opentype"),
+         url("fonts/PlayfairDisplay-Italic.woff") format("woff"),
+         url("fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "ProximaNova-RegularIt";
+    src: url("fonts/ProximaNova-RegularIt.eot");
+    src: url("fonts/ProximaNova-RegularIt.eot?#iefix") format("embedded-opentype"),
+         url("fonts/ProximaNova-RegularIt.woff") format("woff"),
+         url("fonts/ProximaNova-RegularIt.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

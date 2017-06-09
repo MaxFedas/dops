@@ -1,0 +1,55 @@
+/*Mixins*/
+
+.box-shadow(@value){
+	box-shadow: @value;
+	-moz-box-shadow: @value;
+	-webkit-box-shadow: @value;
+	-khtml-box-shadow: @value;
+}
+
+.border-radius(@radius){
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+	-khtml-border-radius: @radius;
+}
+
+.transition(@param){
+	 transition: @param;
+	 -moz-transition: @param;
+	 -webkit-transition: @param;
+	 -o-transition: @param;
+}
+
+.transform(@param) {
+	 transform: @param;
+	 -webkit-transform: @param;
+	 -moz-transform: @param;
+	 -o-transform: @param;
+}
+
+.animate(@animation, @duration, @delay, @fill, @count, @easing) {
+	 animation-name: @animation;
+	 animation-duration: @duration;
+	 animation-delay: @delay;
+	 animation-fill-mode: @fill;
+	 animation-iteration-count: @count;
+	 animation-timing-function: @easing;
+	 -webkit-animation-name: @animation;
+	 -webkit-animation-duration: @duration;
+	 -webkit-animation-delay: @delay;
+	 -webkit-animation-fill-mode: @fill;
+	 -webkit-animation-iteration-count: @count;
+	 -webkit-animation-timing-function: @easing;
+}
+
+.column(@cols, @gap: 1em){
+	 column-count: @cols;
+     -webkit-column-count: @cols;
+	 -moz-column-count: @cols;
+	 -o-column-count: @cols;
+	 column-gap: @gap;
+	 -webkit-column-gap: @gap;
+	 -moz-column-gap: @gap;
+	 -o-column-gap: @gap;
+}

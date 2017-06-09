@@ -1,0 +1,69 @@
+/* =========================
+   Fonts
+   ========================= */
+
+body { font:normal 12px $font, Arial, Helvetica; color:$col-font; background:#fff; line-height: 1; -ms-overflow-style: scrollbar; }
+body * { -webkit-font-smoothing: antialiased; text-shadow: 0 1px 0 rgba(0,0,0,0.01); }
+
+h1, h2, h3, h4, h5 {  }
+
+
+.title {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+
+.modal-ttl {
+    color: $col-blue;
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.modal-ttl-2 {
+    color: $col-font;
+
+    span {
+        display: block;
+        padding-top: 12px;
+        color: $col-font-l;
+    }
+}
+
+a {
+    color: $col-font;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+time {
+    color: $col-font-l2;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+@font-face {
+    font-family: 'WhitneySSm-Medium';
+    src: url('fonts/WhitneySSm-Medium.eot');
+    src: url('fonts/WhitneySSm-Medium.eot?#iefix') format('embedded-opentype'),
+         url('fonts/WhitneySSm-Medium.woff') format('woff'),
+         url('fonts/WhitneySSm-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WhitneySSm-semiBold';
+    src: url('fonts/WhitneySSm-Semibold.eot');
+    src: url('fonts/WhitneySSm-Semibold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/WhitneySSm-Semibold.woff') format('woff'),
+         url('fonts/WhitneySSm-Semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

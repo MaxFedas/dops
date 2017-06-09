@@ -1,0 +1,455 @@
+// Colors, Fonts
+$font: "ProximaNova-Regular";
+$font-sb: "ProximaNova-SemiBold";
+$font-pd: "PlayfairDisplay-Regular";
+$font-i: "PlayfairDisplay-Italic";
+$font-pi: "ProximaNova-RegularIt";
+$col-y: #EDDFC7;
+
+// Media Query
+$tablet-width : 1024px;
+$mobile-width : 767px;
+
+// Mixins
+@mixin tablet {
+	@media (max-width: #{$tablet-width}) {
+   		@content;
+  	}
+}
+
+@mixin mobile {
+    @media (max-width: #{$mobile-width}) {
+        @content;
+    }
+}
+
+// Web Kit Hack
+@mixin wk {
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+		@content;
+	}	
+}
+
+/* IE10>= */
+@mixin ie10 {
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        @content;
+    }
+}
+
+// Rotate
+@mixin rot($deg) {
+    transform: rotate($deg); -webkit-transform: rotate($deg); -moz-transform:rotate($deg); -o-transform:rotate($deg);
+}
+
+// Clearfix
+@mixin clearfix {
+    &:before,
+    &:after {
+        content: " "; 
+        display: table; 
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+// Socket
+@mixin socket {
+    position: relative;
+    width: 1550px;
+    height: 100%;
+    margin: auto;
+
+    @media (max-width: 1600px){
+        width: auto;
+        margin: 0 30px;
+    }
+}
+
+// Background
+@mixin sp($x, $y){
+    background: url(../images/sprites.png) $x $y;
+}
+
+// Full
+@mixin full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+// Link Border
+@mixin link-bor($col, $colh) {
+    text-decoration: none;
+    border-bottom: 1px solid $col;
+    color: $col;
+
+    &:hover {
+        border-color: $colh;
+    }
+}
+
+// Vertiacl Align Midle
+@mixin mdl {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+// Calc 
+@mixin calc($property, $expression) { 
+    #{$property}: -webkit-calc(#{$expression}); 
+    #{$property}: calc(#{$expression}); 
+} 
+
+// Border Radius 
+@mixin border-rad ($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin border-rad-top ($radius) {
+	-webkit-border-radius: $radius $radius 0 0;
+	-moz-border-radius: $radius $radius 0 0;
+	-ms-border-radius: $radius $radius 0 0;
+	border-radius: $radius $radius 0 0;
+}
+
+@mixin border-rad-btm ($radius) {
+	-webkit-border-radius: 0 0 $radius $radius;
+	-moz-border-radius: 0 0 $radius $radius;
+	-ms-border-radius: 0 0 $radius $radius;
+	border-radius: 0 0 $radius $radius;
+}
+
+@mixin border-rad-left ($radius) {
+	-webkit-border-radius: $radius 0 0 $radius;
+	-moz-border-radius: $radius 0 0 $radius;
+	-ms-border-radius: $radius 0 0 $radius;
+	border-radius:$radius 0 0 $radius;
+}
+
+@mixin border-rad-right ($radius) {
+	-webkit-border-radius: 0 $radius $radius 0;
+	-moz-border-radius: 0 $radius $radius 0;
+	-ms-border-radius: 0 $radius $radius 0;
+	border-radius:0 $radius $radius 0;
+}
+
+// :after :before
+.ps {
+	content:"";
+	display: block;
+	position: absolute;
+	top: 0;
+}
+
+// Plaseholder
+@mixin ph {
+    &::-webkit-input-placeholder {@content}
+    &:-moz-placeholder           {@content}
+    &::-moz-placeholder          {@content}
+    &:-ms-input-placeholder      {@content}  
+}
+
+// Border Opacity
+@mixin border-btm-opa($rgba1, $rgba2, $rgba3, $opacity){
+	border-bottom: 1px solid rgba($rgba1, $rgba2, $rgba3, $opacity);
+	-webkit-background-clip: padding-box; 
+	background-clip: padding-box; 
+}
+
+// Transition 
+@mixin transition($transition-property, $transition-time, $method){
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}   
+
+@mixin trans($time) {
+    transition: all $time ease-out; 
+    -webkit-transition: all $time ease-out; 
+    -moz-transition: all $time ease-out; 
+    -ms-transition: all $time ease-out;
+}
+
+.trans {
+    transition: all 0.4s ease-out; 
+    -webkit-transition: all 0.4s ease-out; 
+    -ms-transition: all 0.4s ease-out;
+}
+
+
+// Delay
+@mixin delay($time) {
+    -webkit-transition-delay:$time;
+    -ms-transition-delay:$time;
+    transition-delay:$time;
+}
+
+@mixin a-delay($time){
+    animation-delay: $time !important;
+    -webkit-animation-delay: $time !important; 
+}
+
+// Border Boxing
+@mixin border-box {
+	box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;  
+}
+
+// Arrows
+@mixin tr-top($bwr, $bwb, $bwl, $col) {
+    width: 0; height: 0; border-style: solid; border-width: 0 $bwr $bwb $bwl; border-color:  transparent transparent $col transparent;
+}
+
+@mixin tr-right($bwt, $bwb, $bwl, $col) {
+    width: 0; height: 0; border-style: solid; border-width:  $bwt 0 $bwb $bwl; border-color:   transparent transparent transparent $col;
+}
+
+@mixin tr-bottom($bwt, $bwr, $bwl, $col) {
+    width: 0; height: 0; border-style: solid; border-width: $bwt $bwr 0  $bwl; border-color: $col  transparent transparent transparent;
+}
+
+@mixin tr-left($bwt, $bwr, $bwb, $col) {
+    width: 0; height: 0; border-style: solid; border-width: $bwt $bwr $bwb 0; border-color: transparent $col   transparent transparent;
+}
+
+@mixin st($size, $color, $deg) {
+    position: absolute; display: block; width: $size; height: $size;  border-left-color: $color; pointer-events: none; border-right: 1px solid $color; border-top: 1px solid $color; 
+    transform: rotate($deg); -webkit-transform: rotate($deg); -moz-transform:rotate($deg); -o-transform:rotate($deg);
+}
+
+// Scale
+@mixin scale($scale){
+    transform: scale($scale);
+    -ms-transform: scale($scale);
+    -webkit-transform: scale($scale);
+}
+
+// Flexbox
+@mixin flex($val) {
+    display: flex;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+
+    justify-content: $val;
+    -webkit-justify-content: $val;
+}
+
+// Visibility Hidden
+.vis-hidden {
+    -webkit-backface-visibility: hidden;
+}
+
+// Animation
+@mixin animation($name, $duration, $func){
+    animation: $name $duration $func;
+    -ms-animation: $name $duration $func;
+    -webkit-animation: $name $duration $func;
+}
+
+@mixin animation-d($name, $duration, $func, $delay){
+    animation: $name $duration $func $delay;
+    -ms-animation: $name $duration $func $delay;
+    -webkit-animation: $name $duration $func $delay;
+}
+
+// Others
+.no-select {
+    -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+}
+
+@mixin title-short {
+
+    .title {
+        font-size: 26px;
+        line-height: 33px;
+    }
+
+    .title:after {
+        content:"";
+        display: block;
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: $col-y;
+    }
+
+    .title-sub {
+        display: none;
+    }
+}
+
+@mixin diagram-mini {
+
+    .diagram-block {
+        width: 220px;
+        height: 220px;
+        margin: -110px 0 0 -110px;
+    }
+
+    .diagram[data-d='hotels'], .diagram[data-d='restaurants'] {
+        top: -1px;
+    }
+
+    .diagram-info {
+        top: 41%;
+
+        div {
+            padding-left: 48%;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        span {
+            font-size: 37px;
+            line-height: 34px;
+            top: -1%;
+            left: 10%;
+
+            &:after {
+                top: 18px;
+                right: -7px;
+                width: 40px;
+                height: 34px;
+            }
+        }
+    }
+    
+    .diagram-item {
+
+        .name {
+            font-size: 14px;
+        }
+        
+        &.shops {
+            top: -77px;
+            left: 13px;
+
+            .line {
+                right: -5px;
+            }
+
+            .ico {
+                width: 45px;
+            }
+
+            .diagram-val {
+                top: 17px;
+                left: -75px;
+            }
+        }
+
+        &.festivals {
+            top: -105px;
+            right: 0;
+
+            @include mobile {
+                right: -15px;
+            }
+
+            .ico {
+                width: 40px;
+            }
+
+            .diagram-val {
+                top: 39px;
+                right: -25px;
+            }
+        }
+
+        &.restaurants {
+            left: -118px;
+            bottom: 114px;
+
+            .ico {
+                width: 50px;
+            }
+
+            .diagram-val {
+                top: 21px;
+                left: -74px;
+            }
+        }
+
+        &.hotels {
+            right: -62px;
+            
+            .ico {
+                width: 50px;
+            }
+
+            .diagram-val {
+                top: 20px;
+                right: -72px;
+            }
+        }
+    }   
+
+    .diagram-val {
+
+        &.left {
+            padding-right: 45px;
+        }
+
+        &.right {
+            padding-left: 49px;
+        }
+
+        .line {
+            top: 8px;
+        }
+
+        span {
+            font-size: 18px;
+        }
+    }
+
+    .name {
+        font-size: 16px;
+    }
+}
+
+@mixin articles-mini {
+
+    .title-line {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .article {
+        margin-bottom: 25px;
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    .article-2 {
+        padding-left: 122px;
+    }
+
+    .article-2 .title-line {
+        width: 170px;
+        left: -30px;
+    }
+}
+
+// .diagram-val span, .line li, .line:after {
+//     opacity: 1 !important;
+// }

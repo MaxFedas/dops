@@ -1,0 +1,254 @@
+/* --------------------
+    Profile
+    ------------------- */  
+
+.user-profile-wrapper {
+	background: $col-bg;
+
+	&.scroll {
+		@extend .scrollbar;
+	}
+
+	.column {
+		float: left;
+		min-height: 100%;
+		margin: 0 6px;
+		background-color: #fff;
+
+		width: calc((100% - 12px)/3);
+		width: -webkit-calc((100% - 12px)/3);
+
+		@include ie10 {
+			width: 33%;
+			margin: 0 0.5%;
+		}
+
+		&.first {
+			margin: 0 !important;
+		}
+
+		&:not(.first) {
+			padding-top: 67px;
+		}
+
+		&.last {
+			margin: 0 !important;
+		}
+	}
+
+	.input-wrapper {
+		margin-left: 7%;
+		margin-right: 7%;
+
+		@include tablet {
+			margin-left: 4.5%;
+			margin-right: 4.5%;
+		}
+
+		@include mobile {
+			margin-left: 6%;
+			margin-right: 6%;
+		}
+
+		.input {
+			@include ph {
+				color: $col-font;
+			}
+		}
+	}
+}    
+
+.profile-info-top {
+	position: relative;
+	height: 214px;
+	margin-bottom: 21px;
+
+	&:after {
+		@extend .ps;
+		height: 8px;
+		left: 0;
+		right: 0;
+		bottom: -8px;
+		top: auto;
+		background-color: $col-bg;
+	}
+
+	.avatar {
+		width: 121px;
+		height: 121px;
+		top: 16px;
+		left: 12px;
+	}
+}
+
+.profile-info-col {
+	padding-right: 12px;
+	padding-top: 43px;
+	padding-left: 150px;
+
+	div {
+		font-size: 14px;
+		margin-bottom: 10px;
+		color: $col-font;
+	}
+
+	span {
+		display: block;
+		color: $col-blue;
+		margin-bottom: 11px;
+	}
+
+	b {
+		display: block;
+		padding-top: 11px;
+		border-top: 1px solid $col-bor;
+		color: $col-font-l;
+		font-weight: normal;
+	}
+}
+
+.profile-info-btm {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 60px;
+}
+
+@media (max-width: 900px){
+	
+	.user-profile-wrapper  {
+		overflow: hidden;
+
+		.column {
+			float: none;
+			padding: 0 !important;
+			min-height: auto;
+			width: 100%;
+			margin: 0 !important;
+
+			&:nth-child(2) .input-wrapper:first-child {
+				padding-top: 26px;
+			}
+		}
+	}
+
+	.input-sep {
+		position: relative;
+		margin-bottom: 35px;
+
+		&:last-child {
+			margin-bottom: 10px;
+		}
+
+		&:after {
+			content:"";
+			display: block;
+			position: absolute;
+			bottom: -10px;
+			height: 10px;
+			left: -6%;
+			right: -6%;
+			background-color: $col-bg;
+		}
+	}
+
+	.profile-info-top {
+		margin-bottom: 34px;
+
+		&:after {
+			bottom: -10px;
+			height: 10px;
+		}
+	}
+}
+
+
+// Popup Pass
+.modal {
+	
+}
+
+.modal-dialog {
+	top: 40px;
+	background-color: #fff;
+	margin: auto;
+	border: 1px solid $col-bor;
+	box-shadow: 0px 3px 7px 0px rgba(75, 84, 97, 0.05);
+	-webkit-box-shadow: 0px 3px 7px 0px rgba(75, 84, 97, 0.05);
+
+	.close {
+		position: absolute;
+		opacity: 1;
+		float: none;
+		top: 16px;
+		right: 16px;
+		width: 12px;
+		height: 18px;
+
+		span {
+			display: block;
+			color: #f59a8d;
+
+			&:hover {
+				color: #f4634e;
+			}
+		}
+
+		svg, span {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	@include mobile {
+		top: 20px;
+		margin: 0 20px;
+		width: auto !important;
+	}
+}
+
+
+.modal-pass {
+	
+
+	.modal-dialog {
+		width: 355px;
+		padding: 40px 0 20px;
+
+		transform: translate(0, 0) !important;
+		-webkit-transform: translate(0, 0) !important;
+		-ms-transform: translate(0, 0) !important;
+		-o-transform: translate(0, 0) !important;
+
+		.modal-ttl + p {
+			padding-bottom: 35px;
+		}
+
+		form {
+			margin: 0 57px;
+
+			@include mobile-320 {
+				margin: 0 20px;
+			}
+		}
+
+		.input-wrapper {
+			padding-bottom: 28px;
+		}
+
+		.input-item {
+
+			.input {
+				text-align: center;
+				color: $col-font;
+
+				@include ph {
+					line-height: 52px;
+
+				}
+			}
+		}
+	}
+}
+
