@@ -1,4 +1,4 @@
-﻿<?php require __DIR__ .'/geo/locate.php'; ?>
+﻿<?php //require __DIR__ .'/geo/locate.php'; ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
@@ -68,8 +68,9 @@
 			</div>
 		</header>
 		
-		<!-- Sections -->
-		<section class="wrapper">
+		<div id='contentValues' class='pageContent'>
+			<!-- Sections -->
+			<section class="wrapper">
 			<!-- Section Portfolio -->
 			<div class="section portfolio centrize" id="s-portfolio">
 				<div class="no-vertical-center">
@@ -126,7 +127,7 @@
 										</a>
 									</div>
 								</div>
-								<!--
+								
 								<div class="swiper-slide">
 									<div class="case_item case_item_1">
 										<a href="#">
@@ -139,8 +140,8 @@
 										</a>
 									</div>
 								</div>
-								-->
-								<!--
+								
+								
 								<div class="swiper-slide">
 									<div class="case_item">
 										<a href="#">
@@ -153,7 +154,7 @@
 										</a>
 									</div>
 								</div>
-								-->
+								
 								<!--<div class="swiper-slide">
 									<div class="case_item">
 										<a href="#">
@@ -179,8 +180,8 @@
 			</div>
 		</section>
 		
-		<!--Popups-->
-		<div class="popups_group">
+			<!--Popups-->
+			<div class="popups_group">
 			<!-- Menu Popup -->
 			<div class="menu_popup">
 				<!--<div class="bg_title">Меню</div>-->
@@ -191,22 +192,22 @@
 								<div class="menu lt">
 									<ul>
 										<li><a href="index.html" data-id="#mi_1">Home</a></li>
-										<li><a href="services.html" data-id="#mi_4">Services</a></li>
-										<li><a href="process.html" data-id="#mi_5">Process</a></li>
-										<li><a href="industry.html" data-id="#mi_2">Industries</a></li>
+										<li><a href="services.php" data-id="#mi_4">Services</a></li>
+										<li><a href="process.php" data-id="#mi_5">Process</a></li>
+										<li><a href="industry.php" data-id="#mi_2">Industries</a></li>
 									</ul>
 								</div>
 								<div class="menu rt">
 									<ul>
-										<li class="active"><a href="portfolio.html" data-id="#mi_3">Portfolio</a></li>
-										<li><a href="values.html" data-id="#mi_8">Values</a></li>
-										<li><a href="reviews.html" data-id="#mi_6">Feedback</a></li>
-										<li><a href="contacts.html" data-id="#mi_7">Contacts</a></li>
+										<li class="active"><a href="portfolio.php" data-id="#mi_3">Portfolio</a></li>
+										<li><a href="values.php" data-id="#mi_8">Values</a></li>
+										<li><a href="reviews.php" data-id="#mi_6">Feedback</a></li>
+										<li><a href="contacts.php" data-id="#mi_7">Contacts</a></li>
 									</ul>
 								</div>
 								<div class="clr"></div>
 								<div class="lang">
-									<a href="ukr/portfolio.html">укр</a> / <a href="portfolio.html" class="active">eng</a> / <a href="rus/portfolio.html">рус</a>
+									<a href="ukr/portfolio.php">укр</a> / <a href="portfolio.php" class="active">eng</a> / <a href="rus/portfolio.php">рус</a>
 								</div>
 							</div>
 							<div class="menu_content">
@@ -632,11 +633,11 @@
 				</div>
 			</div>
 			
-			<?php require 'layout/order_popup.php'; ?>
 		</div>		
-				
+		</div>
+		<?php require 'layout/order_popup.php'; ?>
 		<!-- Yandex.Metrika counter -->
-		<script type="text/javascript">
+		<!--<script type="text/javascript">
 		   (function (d, w, c) {
 			   (w[c] = w[c] || []).push(function() {
 				   try {
@@ -662,7 +663,7 @@
 				   d.addEventListener("DOMContentLoaded", f, false);
 			   } else { f(); }
 		   })(document, window, "yandex_metrika_callbacks");
-		</script>
+		</script>-->
 		<noscript><div><img src="https://mc.yandex.ru/watch/41566509" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 		<!-- /Yandex.Metrika counter -->
 		

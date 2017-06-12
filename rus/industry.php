@@ -893,22 +893,22 @@
 								<div class="menu lt">
 									<ul>
 										<li><a href="index.html" data-id="#mi_1">Главная</a></li>
-										<li><a href="services.html" data-id="#mi_4">Услуги</a></li>
-										<li><a href="process.html" data-id="#mi_5">Процесс</a></li>
-										<li class="active"><a href="industry.html" data-id="#mi_2">Индустрии</a></li>
+										<li><a href="services.php" data-id="#mi_4">Услуги</a></li>
+										<li><a href="process.php" data-id="#mi_5">Процесс</a></li>
+										<li class="active"><a href="industry.php" data-id="#mi_2">Индустрии</a></li>
 									</ul>
 								</div>
 								<div class="menu rt">
 									<ul>
-										<li><a href="portfolio.html" data-id="#mi_3">Портфолио</a></li>
-										<li><a href="values.html" data-id="#mi_8">Ценности</a></li>
-										<li><a href="reviews.html" data-id="#mi_6">Отзывы</a></li>
-										<li><a href="contacts.html" data-id="#mi_7">Контакты</a></li>
+										<li><a href="portfolio.php" data-id="#mi_3">Портфолио</a></li>
+										<li><a href="values.php" data-id="#mi_8">Ценности</a></li>
+										<li><a href="reviews.php" data-id="#mi_6">Отзывы</a></li>
+										<li><a href="contacts.php" data-id="#mi_7">Контакты</a></li>
 									</ul>
 								</div>
 								<div class="clr"></div>
 								<div class="lang">
-									<a href="../ukr/industry.html">укр</a> / <a href="../industry.html">eng</a> / <a href="industry.html" class="active">рус</a>
+									<a href="../ukr/industry.php">укр</a> / <a href="../industry.php">eng</a> / <a href="industry.php" class="active">рус</a>
 								</div>
 							</div>
 							<div class="menu_content">

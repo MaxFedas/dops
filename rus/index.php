@@ -85,7 +85,7 @@
 						</div>
 						<div class="bts wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
 							<a href="#" class="btn proj_btn" onclick="$('.order-btn').click(); return false;">Бесплатно оценить проект</a>
-							<a href="portfolio.html" class="btn border make-order-btn" onclick="$('.cases-btn').click(); return false;">Посмотреть портфолио</a>
+							<a href="portfolio.php" class="btn border make-order-btn" onclick="$('.cases-btn').click(); return false;">Посмотреть портфолио</a>
 						</div>
 						<div class="bts only-mobile">
 							<a href="#" class="btn order_btn">Связаться с нами</a>
@@ -119,17 +119,17 @@
 								<div class="menu lt">
 									<ul>
 										<li class="active"><a href="index.html" data-id="#mi_1">Главная</a></li>
-										<li><a href="services.html" data-id="#mi_4">Услуги</a></li>
-										<li><a href="process.html" data-id="#mi_5">Процесс</a></li>
-										<li><a href="industry.html" data-id="#mi_2">Индустрии</a></li>
+										<li><a href="services.php" data-id="#mi_4">Услуги</a></li>
+										<li><a href="process.php" data-id="#mi_5">Процесс</a></li>
+										<li><a href="industry.php" data-id="#mi_2">Индустрии</a></li>
 									</ul>
 								</div>
 								<div class="menu rt">
 									<ul>
-										<li><a href="portfolio.html" data-id="#mi_3">Портфолио</a></li>
-										<li><a href="values.html" data-id="#mi_8">Ценности</a></li>
-										<li><a href="reviews.html" data-id="#mi_6">Отзывы</a></li>
-										<li><a href="contacts.html" data-id="#mi_7">Контакты</a></li>
+										<li><a href="portfolio.php" data-id="#mi_3">Портфолио</a></li>
+										<li><a href="values.php" data-id="#mi_8">Ценности</a></li>
+										<li><a href="reviews.php" data-id="#mi_6">Отзывы</a></li>
+										<li><a href="contacts.php" data-id="#mi_7">Контакты</a></li>
 									</ul>
 								</div>
 								<div class="clr"></div>

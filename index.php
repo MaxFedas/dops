@@ -1,73 +1,77 @@
-﻿<?php require __DIR__ .'/geo/locate.php'; ?>
+﻿<?php //require __DIR__ .'/geo/locate.php'; ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<title>dops.bz</title>
 		
 		<?php require 'layout/head.php'; ?>
+		
 	</head>
 	
 	<body>		
-		<div class="bg">
-			<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1200px" height="750px" viewBox="0 0 1200 750" enable-background="new 0 0 1200 750" xml:space="preserve">
-				<g id="polyline-1">
-					<polyline fill="none" stroke="#394e6b" stroke-miterlimit="10" points="899,161.5 1029.5,161.5 1029.5,291.5 1094.5,291.5 1094.5,357" style="stroke-dashoffset: 391px; stroke-dasharray: 391, 391;" />
-					<g>	
-						<rect x="897" y="159.5" fill="#465c77" width="4" height="4"/>
-						<rect x="962.25" y="159.5" fill="#465c77" width="4" height="4"/>
-						<rect x="1027.5" y="159.5" fill="#465c77" width="4" height="4"/>
-						<rect x="1027.5" y="224.5" fill="#465c77" width="4" height="4"/>
-						<rect x="1027.5" y="289.25" fill="#465c77" width="4" height="4"/>
-						<rect x="1092.5" y="289.25" fill="#465c77" width="4" height="4"/>
-						<rect x="1092.5" y="355" fill="#465c77" width="4" height="4"/>
-					</g>
-				</g>
-				<g id="polyline-2">
-					<polyline fill="none" stroke="#394e6b" stroke-miterlimit="10" points="314.5,96 314.5,161.5 184.5,161.5 184.5,226.5 250,226.5" style="stroke-dashoffset: 326px; stroke-dasharray: 326, 326;" />
-					<g>
-						<rect x="312.5" y="93.25" fill="#465c77" width="4" height="4"/>
-						<rect x="312.5" y="159.25" fill="#465c77" width="4" height="4"/>
-						<rect x="247.5" y="159.25" fill="#465c77" width="4" height="4"/>
-						<rect x="182.5" y="159.516" fill="#465c77" width="4" height="4"/>
-						<rect x="182.5" y="224.5" fill="#465c77" width="4" height="4"/>
-						<rect x="247.5" y="224.5" fill="#465c77" width="4" height="4"/>
-					</g>
-				</g>
-				<g id="polyline-3">
-					<polyline fill="none" stroke="#394e6b" stroke-miterlimit="10" points="184,681.5 249.5,681.5 249.5,616.5 184.5,616.5 184.5,551.5 250,551.5 315,551.5" style="stroke-dashoffset: 391px; stroke-dasharray: 391, 391;" />
-					<g>
-						<rect x="182.583" y="679.5" fill="#465c77" width="4" height="4"/>
-						<rect x="247.5" y="679.5" fill="#465c77" width="4" height="4"/>
-						<rect x="247.5" y="614.5" fill="#465c77" width="4" height="4"/>
-						<rect x="182.625" y="614.5" fill="#465c77" width="4" height="4"/>
-						<rect x="182.625" y="549.5" fill="#465c77" width="4" height="4"/>
-						<rect x="247.5" y="549.5" fill="#465c77" width="4" height="4"/>
-						<rect x="313" y="549.5" fill="#465c77" width="4" height="4"/>
-					</g>
-				</g>
-				<g id="polyline-4">
-					<polyline fill="none" stroke="#394e6b" stroke-miterlimit="10" points="899.5,487 899.5,551.5 964.5,551.5 964.5,616.5 1029.5,616.5 1029.5,681.5 1094.5,681.5 1094.5,552" style="stroke-dashoffset: 519px; stroke-dasharray: 519, 519;" />
-					<g>
-						<rect x="897.5" y="484.25" fill="#465c77" width="4" height="4"/>
-						<rect x="897.5" y="549.5" fill="#465c77" width="4" height="4"/>
-						<rect x="962.5" y="549.5" fill="#465c77" width="4" height="4"/>
-						<rect x="962.5" y="614.5" fill="#465c77" width="4" height="4"/>
-						<rect x="1027.417" y="614.5" fill="#465c77" width="4" height="4"/>
-						<rect x="1027.417" y="679.5" fill="#465c77" width="4" height="4"/>
-						<rect x="1092.5" y="679.5" fill="#465c77" width="4" height="4"/>
-						<rect x="1092.5" y="614.5" fill="#465c77" width="4" height="4"/>
-						<rect x="1092.5" y="549.5" fill="#465c77" width="4" height="4"/>
-					</g>
-				</g>
-			</svg>
-		</div>
 		
 		<?php require 'layout/header.php'; ?>
-		
-		<!-- Sections -->
-		<section class="wrapper">
+		<div class='mainBlock' id="fullpage">
+		<div class='section'>
+		<div id='contentIndex' class='pageContent slide'  data-loadedcontent='true'>
+	
+			<div class="bg">
+				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1200px" height="750px" viewBox="0 0 1200 750" enable-background="new 0 0 1200 750" xml:space="preserve">
+					<g id="polyline-1">
+						<polyline fill="none" stroke="#394e6b" stroke-miterlimit="10" points="899,161.5 1029.5,161.5 1029.5,291.5 1094.5,291.5 1094.5,357" style="stroke-dashoffset: 391px; stroke-dasharray: 391, 391;" />
+						<g>	
+							<rect x="897" y="159.5" fill="#465c77" width="4" height="4"/>
+							<rect x="962.25" y="159.5" fill="#465c77" width="4" height="4"/>
+							<rect x="1027.5" y="159.5" fill="#465c77" width="4" height="4"/>
+							<rect x="1027.5" y="224.5" fill="#465c77" width="4" height="4"/>
+							<rect x="1027.5" y="289.25" fill="#465c77" width="4" height="4"/>
+							<rect x="1092.5" y="289.25" fill="#465c77" width="4" height="4"/>
+							<rect x="1092.5" y="355" fill="#465c77" width="4" height="4"/>
+						</g>
+					</g>
+					<g id="polyline-2">
+						<polyline fill="none" stroke="#394e6b" stroke-miterlimit="10" points="314.5,96 314.5,161.5 184.5,161.5 184.5,226.5 250,226.5" style="stroke-dashoffset: 326px; stroke-dasharray: 326, 326;" />
+						<g>
+							<rect x="312.5" y="93.25" fill="#465c77" width="4" height="4"/>
+							<rect x="312.5" y="159.25" fill="#465c77" width="4" height="4"/>
+							<rect x="247.5" y="159.25" fill="#465c77" width="4" height="4"/>
+							<rect x="182.5" y="159.516" fill="#465c77" width="4" height="4"/>
+							<rect x="182.5" y="224.5" fill="#465c77" width="4" height="4"/>
+							<rect x="247.5" y="224.5" fill="#465c77" width="4" height="4"/>
+						</g>
+					</g>
+					<g id="polyline-3">
+						<polyline fill="none" stroke="#394e6b" stroke-miterlimit="10" points="184,681.5 249.5,681.5 249.5,616.5 184.5,616.5 184.5,551.5 250,551.5 315,551.5" style="stroke-dashoffset: 391px; stroke-dasharray: 391, 391;" />
+						<g>
+							<rect x="182.583" y="679.5" fill="#465c77" width="4" height="4"/>
+							<rect x="247.5" y="679.5" fill="#465c77" width="4" height="4"/>
+							<rect x="247.5" y="614.5" fill="#465c77" width="4" height="4"/>
+							<rect x="182.625" y="614.5" fill="#465c77" width="4" height="4"/>
+							<rect x="182.625" y="549.5" fill="#465c77" width="4" height="4"/>
+							<rect x="247.5" y="549.5" fill="#465c77" width="4" height="4"/>
+							<rect x="313" y="549.5" fill="#465c77" width="4" height="4"/>
+						</g>
+					</g>
+					<g id="polyline-4">
+						<polyline fill="none" stroke="#394e6b" stroke-miterlimit="10" points="899.5,487 899.5,551.5 964.5,551.5 964.5,616.5 1029.5,616.5 1029.5,681.5 1094.5,681.5 1094.5,552" style="stroke-dashoffset: 519px; stroke-dasharray: 519, 519;" />
+						<g>
+							<rect x="897.5" y="484.25" fill="#465c77" width="4" height="4"/>
+							<rect x="897.5" y="549.5" fill="#465c77" width="4" height="4"/>
+							<rect x="962.5" y="549.5" fill="#465c77" width="4" height="4"/>
+							<rect x="962.5" y="614.5" fill="#465c77" width="4" height="4"/>
+							<rect x="1027.417" y="614.5" fill="#465c77" width="4" height="4"/>
+							<rect x="1027.417" y="679.5" fill="#465c77" width="4" height="4"/>
+							<rect x="1092.5" y="679.5" fill="#465c77" width="4" height="4"/>
+							<rect x="1092.5" y="614.5" fill="#465c77" width="4" height="4"/>
+							<rect x="1092.5" y="549.5" fill="#465c77" width="4" height="4"/>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<!-- Sections -->
+			<section class="wrapper">
 			<!-- Section Started -->
-			<div class="section started centrize" id="s-started">
+			<div class="section1 started centrize" id="s-started">
 				<div class="vertical-center">	
 					<div class="wrap">
 						<div class="syear">2017</div>
@@ -85,7 +89,7 @@
 						</div>
 						<div class="bts wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
 							<a href="#" class="btn proj_btn" onclick="$('.order-btn').click(); return false;">Estimate Project For Free</a>
-							<a href="portfolio.html" class="btn border make-order-btn" onclick="$('.cases-btn').click(); return false;">Investigate Our Portfolio</a>
+							<a href="portfolio.php" class="btn border make-order-btn" onclick="$('.cases-btn').click(); return false;">Investigate Our Portfolio</a>
 						</div>
 						<div class="s-elements">
 							<div class="lines">
@@ -104,10 +108,10 @@
 			</div>
 		</section>
 		
-		<!--Popups-->
-		<div class="popups_group">
-			<!-- Menu Popup -->
-			<div class="menu_popup">
+			<!--Popups-->
+			<div class="popups_group">
+				<!-- Menu Popup -->
+				<div class="menu_popup">
 				<!--<div class="bg_title">Меню</div>-->
 				<div class="centrize">
 					<div class="vertical-center">
@@ -116,17 +120,17 @@
 								<div class="menu lt">
 									<ul>
 										<li class="active"><a href="index.html" data-id="#mi_1">Home</a></li>
-										<li><a href="services.html" data-id="#mi_4">Services</a></li>
-										<li><a href="process.html" data-id="#mi_5">Process</a></li>
-										<li><a href="industry.html" data-id="#mi_2">Industries</a></li>
+										<li><a href="services.php" data-id="#mi_4">Services</a></li>
+										<li><a href="process.php" data-id="#mi_5">Process</a></li>
+										<li><a href="industry.php" data-id="#mi_2">Industries</a></li>
 									</ul>
 								</div>
 								<div class="menu rt">
 									<ul>
-										<li><a href="portfolio.html" data-id="#mi_3">Portfolio</a></li>
-										<li><a href="values.html" data-id="#mi_8">Values</a></li>
-										<li><a href="reviews.html" data-id="#mi_6">Feedback</a></li>
-										<li><a href="contacts.html" data-id="#mi_7">Contacts</a></li>
+										<li><a href="portfolio.php" data-id="#mi_3">Portfolio</a></li>
+										<li><a data-id="#mi_8">Values</a></li>
+										<li><a href="reviews.php" data-id="#mi_6">Feedback</a></li>
+										<li><a href="contacts.php" data-id="#mi_7">Contacts</a></li>
 									</ul>
 								</div>
 								<div class="clr"></div>
@@ -557,13 +561,25 @@
 				</div>
 			</div>
 			
-			<!-- Popups --->
-			<?php
-				require 'layout/order_popup.php';	
-				require 'layout/cases_popup.php';
-			?>
+				<!-- Popups --->
+			
+			</div>
 		</div>
-				
+		
+			<div id='servicesContent' class='pageContent slide' data-loadedcontent='false' data-page='/services.php'></div>
+			<div id='processContent' class='pageContent slide' data-loadedcontent='false' data-page='/process.php'></div>
+			<div id='industriesContent' class='pageContent slide' data-loadedcontent='false' data-page='/industry.php'></div>
+			<div id='portfolioContent' class='pageContent slide' data-loadedcontent='false' data-page='/portfolio.php'></div>
+			<div id='valuesContent' class='pageContent slide' data-loadedcontent='false' data-page='/values.php'></div>
+			<div id='feedbackContent' class='pageContent slide' data-loadedcontent='false' data-page='/reviews.php'></div>
+			<div id='contactsContent' class='pageContent slide' data-loadedcontent='false' data-page='/contacts.php'></div>
+		</div>
+		
+		</div>
+		<?php
+			require 'layout/order_popup.php';	
+			require 'layout/cases_popup.php';
+		?>
 		<?php require 'layout/footer.php';	?>
 	</body>
 </html>

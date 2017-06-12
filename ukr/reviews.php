@@ -157,22 +157,22 @@
 								<div class="menu lt">
 									<ul>
 										<li><a href="index.html" data-id="#mi_1">Головна</a></li>
-										<li><a href="services.html" data-id="#mi_4">Послуги</a></li>
-										<li><a href="process.html" data-id="#mi_5">Процес</a></li>
-										<li><a href="industry.html" data-id="#mi_2">Індустрії</a></li>
+										<li><a href="services.php" data-id="#mi_4">Послуги</a></li>
+										<li><a href="process.php" data-id="#mi_5">Процес</a></li>
+										<li><a href="industry.php" data-id="#mi_2">Індустрії</a></li>
 									</ul>
 								</div>
 								<div class="menu rt">
 									<ul>
-										<li><a href="portfolio.html" data-id="#mi_3">Портфоліо</a></li>
-										<li><a href="values.html" data-id="#mi_8">Цінності</a></li>
-										<li class="active"><a href="reviews.html" data-id="#mi_6">Відгуки</a></li>
-										<li><a href="contacts.html" data-id="#mi_7">Контакти</a></li>
+										<li><a href="portfolio.php" data-id="#mi_3">Портфоліо</a></li>
+										<li><a href="values.php" data-id="#mi_8">Цінності</a></li>
+										<li class="active"><a href="reviews.php" data-id="#mi_6">Відгуки</a></li>
+										<li><a href="contacts.php" data-id="#mi_7">Контакти</a></li>
 									</ul>
 								</div>
 								<div class="clr"></div>
 								<div class="lang">
-									<a href="reviews.html" class="active">укр</a> / <a href="../reviews.html">eng</a> / <a href="../rus/reviews.html">рус</a>
+									<a href="reviews.php" class="active">укр</a> / <a href="../reviews.php">eng</a> / <a href="../rus/reviews.php">рус</a>
 								</div>
 							</div>
 							<div class="menu_content">

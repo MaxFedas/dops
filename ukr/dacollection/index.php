@@ -48,7 +48,7 @@
 					<a href="/dacollection/#">dops <span>.</span> bz</a>
 				</div>
 				<div class="lang">
-					<a href="/dacollection/portfolio.html" class="proj_btn">
+					<a href="/dacollection/portfolio.php" class="proj_btn">
 						<span class="circles">
 							<span class="circle blue"></span>
 							<span class="circle"></span>
@@ -1225,17 +1225,17 @@
 								<div class="menu lt">
 									<ul>
 										<li class="active"><a href="/dacollection/index.html" data-id="#mi_1">Главная</a></li>
-										<li><a href="/dacollection/industry.html" data-id="#mi_2">Индустрии</a></li>
-										<li><a href="/dacollection/portfolio.html" data-id="#mi_3" class="proj_btn">Портфолио</a></li>
-										<li><a href="/dacollection/services.html" data-id="#mi_4">Услуги</a></li>
+										<li><a href="/dacollection/industry.php" data-id="#mi_2">Индустрии</a></li>
+										<li><a href="/dacollection/portfolio.php" data-id="#mi_3" class="proj_btn">Портфолио</a></li>
+										<li><a href="/dacollection/services.php" data-id="#mi_4">Услуги</a></li>
 									</ul>
 								</div>
 								<div class="menu rt">
 									<ul>
-										<li><a href="/dacollection/process.html" data-id="#mi_5">Процесс</a></li>
-										<li><a href="/dacollection/reviews.html" data-id="#mi_6">Отзывы</a></li>
-										<li><a href="/dacollection/contacts.html" data-id="#mi_7">Контакты</a></li>
-										<li><a href="/dacollection/values.html" data-id="#mi_8">Ценности</a></li>
+										<li><a href="/dacollection/process.php" data-id="#mi_5">Процесс</a></li>
+										<li><a href="/dacollection/reviews.php" data-id="#mi_6">Отзывы</a></li>
+										<li><a href="/dacollection/contacts.php" data-id="#mi_7">Контакты</a></li>
+										<li><a href="/dacollection/values.php" data-id="#mi_8">Ценности</a></li>
 									</ul>
 								</div>
 								<div class="clr"></div>

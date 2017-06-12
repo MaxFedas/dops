@@ -1,6 +1,6 @@
 <!-- Order Popup -->
 <div class="order_popup">
-	<div class="section order centrize" id="s-started">
+	<div class="section1 order centrize" id="s-started">
 		<div class="vertical-center">
 			<div class="wrap">
 				<div class="lt">

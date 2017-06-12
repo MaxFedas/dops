@@ -1,6 +1,6 @@
 <!-- Order Popup -->
 <div class="cases_popup">
-	<div class="section portfolio centrize" id="s-portfolio">
+	<div class="section1 portfolio centrize" id="s-portfolio">
 		<div class="no-vertical-center">
 			<div class="wrap">
 				<div class="tabs">

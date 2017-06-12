@@ -41,7 +41,7 @@
 				</div>
 				<div class="right">
 					<a class="order-btn" href="order.html">ЗВОРОТНІЙ ЗВЯЗОК</a>
-					<a class="cases-btn" href="portfolio.html">
+					<a class="cases-btn" href="portfolio.php">
 						<span class="circles">
 							<span class="circle blue"></span>
 							<span class="circle"></span>

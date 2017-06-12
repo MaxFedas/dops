@@ -22,7 +22,7 @@
 
         <div class="b-nav">
             <div class="socket">
-                <a href="http://dops.bz/portfolio.html" class="btn-back">назад в портфолио</a>
+                <a href="http://dops.bz/portfolio.php" class="btn-back">назад в портфолио</a>
                 <a href="http://dops.bz/debtmarket/" class="arrow-nav prev"><span>предыдущая работа</span></a>
                 <a href="http://dops.bz/dacollection/" class="arrow-nav next"><span>следущая работа</span></a>
             </div>
