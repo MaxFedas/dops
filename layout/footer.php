@@ -39,6 +39,7 @@
 		<script type="text/javascript" src="js/svgline.js"></script>
 		<script type="text/javascript" src="js/wow.min.js"></script>
 		<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js/eventsLoad.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 		<link rel="stylesheet" type="text/css" href="js/jquery.fullPage.css" />
 		<script type="text/javascript" src="js/jquery.fullPage.js"></script>
