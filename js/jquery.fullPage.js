@@ -347,7 +347,7 @@
             }
             else if(value){
                 setMouseWheelScrolling(true);
-                addTouchHandler();
+                //addTouchHandler();
             }else{
                 setMouseWheelScrolling(false);
                 removeTouchHandler();

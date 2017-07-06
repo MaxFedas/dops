@@ -38,6 +38,33 @@ $(function() {
 	});
 
 
+	var lastY;
+	var lastX;
+	$('body').on('touchstart', function(e) {
+		lastX =  e.originalEvent.touches[0].clientX;
+		lastY =  e.originalEvent.touches[0].clientY;
+	});
+
+
+	$('body').on('touchmove', function(e) {
+		var currentX =  e.originalEvent.touches[0].clientX;
+		var currentY =  e.originalEvent.touches[0].clientY;
+		var diffX = lastX - currentX;
+		var diffY = lastY - currentY;
+		if (Math.abs(diffX) > Math.abs(diffY)) {
+			return;
+		}
+    if ($('.cases-btn').hasClass('active')) {
+      $('.cases-btn').click();
+    }
+		if (diffY > 0) {
+			$.fn.fullpage.moveSlideLeft();
+		} else {
+			$.fn.fullpage.moveSlideRight();
+		}
+	});
+
+
   $('.menu').on('click touchstart', 'a', function(){
 		var slide = $(this).attr('data-goto');
 		

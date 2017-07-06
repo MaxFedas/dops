@@ -16,7 +16,6 @@ $(function() {
 							var htmlData = $.parseHTML(data);
 							var htmlPiece = $(htmlData).filter('#contentValues')
 							content.html(htmlData);
-							console.log(htmlData)
 						},
 						error: function(e) {
 							console.log('ERROR', e);
