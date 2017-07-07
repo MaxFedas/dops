@@ -467,9 +467,8 @@
 			<!-- Popups --->
 		
 		</div>
-		<div class='mainBlock' id="fullpage">
-		<div class='section' data-anchor="0">
-		<div id='contentIndex' class='pageContent slide'  data-loadedcontent='true' data-anchor="home">
+		<div class='mainBlock' id="fullpage" data-pageLoad="true">
+		<div id='contentIndex' class='pageContent section'  data-loadedcontent='true' data-anchor="home">
 	
 			<div class="bg">
 				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1200px" height="750px" viewBox="0 0 1200 750" enable-background="new 0 0 1200 750" xml:space="preserve">
@@ -562,21 +561,18 @@
 					<div class="s-circle"></div>
 				</div>
 			</div>
-		</section>
+		</section>	
+	</div>
+	
+		<div id='servicesContent' class='pageContent section' data-loadedcontent='false' data-page='/services.php' data-anchor='services'></div>
+		<div id='processContent' class='pageContent section' data-loadedcontent='false' data-page='/process.php' data-anchor='process'></div>
+		<div id='industriesContent' class='pageContent section' data-loadedcontent='false' data-page='/industry.php' data-anchor='industries'></div>
+		<div id='portfolioContent' class='pageContent section' data-loadedcontent='false' data-page='/portfolio.php' data-anchor='portfolio'></div>
+		<div id='valuesContent' class='pageContent section' data-loadedcontent='false' data-page='/values.php' data-anchor='values'></div>
+		<div id='feedbackContent' class='pageContent section' data-loadedcontent='false' data-page='/reviews.php' data-anchor='feedback'></div>
+		<div id='contactsContent' class='pageContent section' data-loadedcontent='false' data-page='/contacts.php' data-anchor='contacts'></div>
 		
-		
-		</div>
-		
-			<div id='servicesContent' class='pageContent slide' data-loadedcontent='false' data-page='/services.php' data-anchor='services'></div>
-			<div id='processContent' class='pageContent slide' data-loadedcontent='false' data-page='/process.php' data-anchor='process'></div>
-			<div id='industriesContent' class='pageContent slide' data-loadedcontent='false' data-page='/industry.php' data-anchor='industries'></div>
-			<div id='portfolioContent' class='pageContent slide' data-loadedcontent='false' data-page='/portfolio.php' data-anchor='portfolio'></div>
-			<div id='valuesContent' class='pageContent slide' data-loadedcontent='false' data-page='/values.php' data-anchor='values'></div>
-			<div id='feedbackContent' class='pageContent slide' data-loadedcontent='false' data-page='/reviews.php' data-anchor='feedback'></div>
-			<div id='contactsContent' class='pageContent slide' data-loadedcontent='false' data-page='/contacts.php' data-anchor='contacts'></div>
-		</div>
-		
-		</div>
+	</div>
 		<?php
 			require 'layout/order_popup.php';	
 			require 'layout/cases_popup.php';
