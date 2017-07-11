@@ -3535,6 +3535,10 @@ h3, .h3 {
   border-width: 2px;
 }
 
+.goBack {
+  cursor: pointer;
+}
+
 .arrow-nav.next {
   right: 0;
 }/*Nav Mobile*/.b-nav.b-nav-mobile .btn-back {  -webkit-border-radius: 105px;  -moz-border-radius: 105px;  -ms-border-radius: 105px;  border-radius: 105px;  height: 147px;  line-height: 153px;  padding: 0 69px;  letter-spacing: 2.4px;  font-size: 33px;}.b-nav.b-nav-mobile .arrow-nav {  width: 135px;  height: 135px;}.b-nav.b-nav-mobile .arrow-nav:before {  width: 18px;  height: 18px;  border-right: 3px solid #fff;  border-top: 3px solid #fff;  top: 60px;  left: 57px;  border-width: 6px;}.b-nav.b-nav-mobile .arrow-nav.prev {  right: 180px;}.b-nav.b-nav-mobile .arrow-nav.prev:before {  width: 18px;  height: 18px;  border-right: 3px solid #fff;  border-top: 3px solid #fff;  border-width: 6px;}

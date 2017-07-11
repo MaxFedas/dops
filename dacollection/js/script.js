@@ -12,6 +12,12 @@
 	    e.preventDefault(); return false; 
 	});
 
+
+	$(".goBack").on('click', function(e) {
+		$("body").removeClass("slideInUp")
+		$("body").addClass("slideOutDown")
+		$('body').hide().slideDown(1000, function(){window.location = $('.goBack').data().link});
+	});
 	
 	var width = $(window).width();
 	var height = $(window).height();

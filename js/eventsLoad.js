@@ -17,10 +17,14 @@ $(function() {
 	$('.logo a, .case_item a').click(function(){
 		if(!$(this).parent().hasClass('disabled')){
 			var link = $(this).attr('href');
-			setTimeout(function() {
-				 location.href = "" + link;
-			}, 1000);
-			$('.preloader').fadeIn(1000);
+			if ($(this).hasClass('work-link')) {
+				location.href = "" + link;
+			} else {
+				setTimeout(function() {
+					location.href = "" + link;
+				}, 1000);
+				$('.preloader').fadeIn(1000);
+			}
 		}
 		return false;
 	});

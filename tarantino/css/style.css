@@ -4066,4 +4066,7 @@ hgroup .title-2 {
   left: -211px;
 }
 
+.goBack {
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
