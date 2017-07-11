@@ -1,5 +1,11 @@
 document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '');
 
+$(".goBack").on('click touchstart', function(e) {
+  $("body").removeClass("slideInUp")
+  $("body").addClass("slideOutDown")
+  $('body').hide().slideDown(1000, function(){window.location = $('.goBack').data().link});
+});
+
 $(function(){
 
     // safety of content

@@ -1,4 +1,4 @@
-<?php //require __DIR__ .'/../geo/locate.php'; ?>
+<?php require __DIR__ .'/../geo/locate.php'; ?>
 <!DOCTYPE html>
 
 <html class="no-js">
@@ -10,16 +10,17 @@
         <link type="text/css" rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
         <link type="text/css" rel="stylesheet" href="css/anythingslider.min.css" />
         <link type="text/css" rel="stylesheet" href="css/style.css" />
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	</head>
 	
-	<body>
+	<body class="animated slideInUp">
         <!-- <div class="preloader">
             <span>loading...</span>
         </div> -->
 
         <div class="b-nav">
             <div class="socket">
-                <a href="http://dops.bz/portfolio.php" class="btn-back">назад в портфолио</a>
+                <div data-link="http://dops.bz/portfolio.php" class="btn-back goBack">назад в портфолио</div>
                 <a href="http://dops.bz/dacollection/" class="arrow-nav prev"><span>предыдущая работа</span></a>
                 <a href="http://dops.bz/tarantino/" class="arrow-nav next"><span>следущая работа</span></a>
             </div>

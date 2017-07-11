@@ -17,31 +17,70 @@ $(function() {
 	$('.logo a, .case_item a').click(function(){
 		if(!$(this).parent().hasClass('disabled')){
 			var link = $(this).attr('href');
-			setTimeout(function() {
-				 location.href = "" + link;
-			}, 1000);
-			$('.preloader').fadeIn(1000);
+			if ($(this).hasClass('work-link')) {
+				location.href = "" + link;
+			} else {
+				setTimeout(function() {
+					location.href = "" + link;
+				}, 1000);
+				$('.preloader').fadeIn(1000);
+			}
 		}
 		return false;
 	});
 
 
 	$('body').on('mousewheel', function(e, delta) {
+		if (!$('#fullpage').data().pageLoad) return;
     if ($('.cases-btn').hasClass('active')) {
       $('.cases-btn').click();
     }
 		if (delta === 1) {
-			$.fn.fullpage.moveSlideLeft();
+			$.fn.fullpage.moveSectionUp();
 		} else {
-			$.fn.fullpage.moveSlideRight();
+			$.fn.fullpage.moveSectionDown();
 		}
+		$('#fullpage').data().pageLoad = false;
 	});
+
+
+	var lastY;
+	var lastX;
+	var currentX;
+	var currentY;
+	$('body').on('touchstart', function(e) {
+		currentX = lastX = e.originalEvent.touches[0].clientX;
+		currentY = lastY = e.originalEvent.touches[0].clientY;
+	});
+
+
+	$('body').on('touchmove', function(e) {
+		currentX =  e.originalEvent.touches[0].clientX;
+		currentY =  e.originalEvent.touches[0].clientY;
+	});
+
+
+$('body').on('touchend', function(e) {
+	var diffX = lastX - currentX;
+	var diffY = lastY - currentY;
+	if (Math.abs(diffX) > Math.abs(diffY) || Math.abs(diffY) < 100) {
+		return;
+	}
+	if ($('.cases-btn').hasClass('active')) {
+		$('.cases-btn').click();
+	}
+	if (diffY > 0) {
+		$.fn.fullpage.moveSectionDown();
+	} else {
+		$.fn.fullpage.moveSectionUp();
+	}
+});
 
 
   $('.menu').on('click touchstart', 'a', function(){
 		var slide = $(this).attr('data-goto');
 		
-		$.fn.fullpage.moveTo('0', slide);
+		$.fn.fullpage.moveTo(slide);
 		$('.menu-btn').click()
 		return;
     if($(this).attr('href')!='portfolio.php'){
@@ -67,11 +106,11 @@ $(function() {
     return false;
   });
   
-new WOW().init();
+//new WOW().init();
 
 $('.menu-btn').on('click touchstart', function(){
 	$('.menu_popup_fx').find('li.active').removeClass('active');
-	var activeSlide = $('.pageContent.slide.active').data().anchor;
+	var activeSlide = $('.pageContent.section.active').data().anchor;
 	$('.menu_popup_fx').find('li [data-goto="' + activeSlide + '"]').parent().addClass('active');
   if($(this).hasClass('active')) {
     $('.menu_popup').fadeOut(500);

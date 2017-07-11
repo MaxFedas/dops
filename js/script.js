@@ -3,7 +3,7 @@ $(function() {
 	var height = $(window).height();
 	
 	/*cases popup*/
-	if(window.location.hash=='#0/profile'){
+	if(window.location.hash=='#profile'){
 		$('.cases-btn').addClass('active');
 		$('.cases_popup').fadeIn(500, function(){
 			//case_swiper.update(true);

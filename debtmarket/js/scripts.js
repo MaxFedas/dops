@@ -16,6 +16,12 @@ $(document).ready(function() {
 
     $(".section-top-photo").addClass("animate");
     
+    $(".goBack").on('click touchstart', function(e) {
+      $("body").removeClass("slideInUp")
+      $("body").addClass("slideOutDown")
+      $('body').hide().slideDown(1000, function(){window.location = $('.goBack').data().link});
+    });
+
     $(window).on("load", function(){
 
         // $(".preloader").fadeOut(500, function(){
