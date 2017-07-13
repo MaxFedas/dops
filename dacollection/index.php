@@ -1,4 +1,4 @@
-﻿<?php require __DIR__ .'/../geo/locate.php'; ?>
+﻿<?php //require __DIR__ .'/../geo/locate.php'; ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>

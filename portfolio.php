@@ -23,7 +23,7 @@
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<div class="case_item disabled">
-								<a href="#" target="_blank" class="work-link">
+								<a href="#" class="work-link">
 									<span class="date">2017</span>
 									<span class="image-wrap"></span>
 									<span class="image" style="background-image: url(images/case_7.png);"></span>
@@ -37,7 +37,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="case_item disabled">
-								<a href="#" target="_blank" class="work-link">
+								<a href="#" class="work-link">
 									<span class="date">2017</span>
 									<span class="image-wrap"></span>
 									<span class="image" style="background-image: url(images/case_8.png);"></span>
@@ -51,7 +51,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="case_item">
-								<a href="/debtmarket/" target="_blank" class="work-link">
+								<a href="/debtmarket/" class="work-link">
 									<span class="date">2015</span>
 									<span class="image-wrap"></span>
 									<span class="image" style="background-image: url(images/case_6.png);"></span>
@@ -63,7 +63,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="case_item">
-								<a href="/tarantino/" target="_blank" class="work-link">
+								<a href="/tarantino/" class="work-link">
 									<span class="date">2015</span>
 									<span class="image-wrap"></span>
 									<span class="image" style="background-image: url(images/case_5.png);"></span>
@@ -75,7 +75,7 @@
 						</div>
 						<div class="swiper-slide">
 							<div class="case_item">
-								<a href="/dacollection/" target="_blank" class="work-link">
+								<a href="/dacollection/" class="work-link">
 									<span class="date">2015</span>
 									<span class="image-wrap"></span>
 									<span class="image" style="background-image: url(images/case_2.png);"></span>

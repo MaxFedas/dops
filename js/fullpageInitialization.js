@@ -29,7 +29,14 @@ $(function() {
               });  
 						}
 					});
-			}
+			},
+      afterLoad: function(anchorLink, index){
+        if (anchorLink === 'portfolio') {
+          $('.cases-btn').addClass('active');
+        } else {
+          $('.cases-btn').removeClass('active');
+        }
+      }
 		});
 	});
 });
