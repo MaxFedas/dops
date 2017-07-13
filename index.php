@@ -1,4 +1,4 @@
-﻿<?php require __DIR__ .'/geo/locate.php'; ?>
+﻿<?php //require __DIR__ .'/geo/locate.php'; ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
@@ -468,7 +468,7 @@
 		
 		</div>
 		<div class='mainBlock' id="fullpage" data-pageLoad="true">
-		<div id='contentIndex' class='pageContent section'  data-loadedcontent='true' data-anchor="home">
+		<div id='section-1' class='pageContent section'  data-loadedcontent='true' data-anchor="home">
 	
 			<div class="bg">
 				<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="1200px" height="750px" viewBox="0 0 1200 750" enable-background="new 0 0 1200 750" xml:space="preserve">
@@ -564,13 +564,13 @@
 		</section>	
 	</div>
 	
-		<div id='servicesContent' class='pageContent section' data-loadedcontent='false' data-page='/services.php' data-anchor='services'></div>
-		<div id='processContent' class='pageContent section' data-loadedcontent='false' data-page='/process.php' data-anchor='process'></div>
-		<div id='industriesContent' class='pageContent section' data-loadedcontent='false' data-page='/industry.php' data-anchor='industries'></div>
-		<div id='portfolioContent' class='pageContent section' data-loadedcontent='false' data-page='/portfolio.php' data-anchor='portfolio'></div>
-		<div id='valuesContent' class='pageContent section' data-loadedcontent='false' data-page='/values.php' data-anchor='values'></div>
-		<div id='feedbackContent' class='pageContent section' data-loadedcontent='false' data-page='/reviews.php' data-anchor='feedback'></div>
-		<div id='contactsContent' class='pageContent section' data-loadedcontent='false' data-page='/contacts.php' data-anchor='contacts'></div>
+		<div id='section-2' class='pageContent section' data-loadedcontent='false' data-page='/services.php' data-anchor='services'></div>
+		<div id='section-3' class='pageContent section' data-loadedcontent='false' data-page='/process.php' data-anchor='process'></div>
+		<div id='section-4' class='pageContent section' data-loadedcontent='false' data-page='/industry.php' data-anchor='industries'></div>
+		<div id='section-5' class='pageContent section' data-loadedcontent='false' data-page='portfolio.php' data-anchor='portfolio'></div>
+		<div id='section-6' class='pageContent section' data-loadedcontent='false' data-page='/values.php' data-anchor='values'></div>
+		<div id='section-7' class='pageContent section' data-loadedcontent='false' data-page='/reviews.php' data-anchor='feedback'></div>
+		<div id='section-8' class='pageContent section' data-loadedcontent='false' data-page='/contacts.php' data-anchor='contacts'></div>
 		
 	</div>
 		<?php
